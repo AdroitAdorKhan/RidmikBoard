@@ -1,7 +1,12 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard.
 # CHANGES
-# LATEST | BUILD #9 | UPDATED 19 November, 2017
+# LATEST | BUILD #10 | UPDATED 19 November, 2017
+
+v. 1.6.0 - Stable
+- [FIX] Immediate fix to a fatal Update Error! (UuuHH!)
+- [FIX] Github Respiratory, and in-app update link now connected to Github, direct source.
+- [UPDATED] UI Elements.
 
 v. 1.5.7 - Stable
 - [UPDATED] Base - Few Code Fixation!
