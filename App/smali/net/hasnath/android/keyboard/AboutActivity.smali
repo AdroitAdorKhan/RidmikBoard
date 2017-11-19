@@ -63,7 +63,7 @@
 
     .line 45
     .local v0, "intent":Landroid/content/Intent;
-    const-string v1, "http://bit.ly/RBDoc"
+    const-string v1, "https://github.com/AdroitAdorKhan/RidmikBoard/blob/master/Changes.md"
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
