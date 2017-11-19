@@ -1,7 +1,9 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard.
-#CHANGES
-v. 1.5.6 - Stable - LATEST | BUILD #8 | UPDATED 15 November, 2017
+# CHANGES
+# LATEST | BUILD #8 | UPDATED 15 November, 2017
+
+v. 1.5.6 - Stable
 - [UPDATED] Base - Stable.
 - [UPDATED] Emojis. (Still few emojis won’t work on Android 4/5/6 as Google’s NotoEmoji was updated in Android 7+)
 - [UPDATED] Animation speed.
@@ -48,7 +50,7 @@ v. 1.0.0 - Beta
 - [UPDATED] Design and UI elements.
 - [UPDATED] Codes.
 
-v. 0.0.5 - Beta
+v. 0.0.5 - Alpha
 - [UPDATED] Base updated with my few own codes.
 - [FIX] Theme Base.
 - [UPDATED] Design and UI elements.
