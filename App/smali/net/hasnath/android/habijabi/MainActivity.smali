@@ -641,7 +641,7 @@
 
     .line 159
     .local v0, "fa":Landroid/content/Intent;
-    const-string v5, "https://github.com/AdroitAdorKhan/RidmikBoard/tree/master/Releases/Update"
+    const-string v5, "https://github.com/AdroitAdorKhan/RidmikBoard/releases/"
 
     invoke-static {v5}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
