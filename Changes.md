@@ -5,12 +5,12 @@ A MOD of original Ridmik Bangla Keyboard.
 
 v. 1.6.0 - Stable
 - [FIX] Immediate fix to a fatal Update Error! (UuuHH!)
-- [FIX] Github Respiratory, and in-app update link now connected to Github, direct source.
+- [FIX] Github Repository, and in-app update link now connected to Github, direct source.
 - [UPDATED] UI Elements.
 
 v. 1.5.7 - Stable
 - [UPDATED] Base - Few Code Fixation!
-- [NEW] Github Respiratory, and in-app update link now connected to Github, direct source.
+- [NEW] Github Repo, and in-app update link now connected to Github, direct source.
 - [UPDATED] UI Elements.
 - [FIX] Few bugs, you guys might haven't noticed! :P
 
