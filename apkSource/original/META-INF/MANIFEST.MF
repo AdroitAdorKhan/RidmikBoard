@@ -178,7 +178,7 @@ Name: res/drawable-hdpi-v4/sym_bkeyboard_search.png
 SHA1-Digest: YqIxtu1LJhBRHgRUAx9mBAF/pAU=
 
 Name: assets/www/keymapview.html
-SHA1-Digest: fCpCZKRr1DwRE4C5ya7nzQrliLw=
+SHA1-Digest: 2SOQJENvWFWgrNu0zefqeSi/Vvk=
 
 Name: res/xml/method.xml
 SHA1-Digest: mR7XlaO58516Dhm95W2FVUV7Bkk=
@@ -476,7 +476,7 @@ Name: res/drawable-mdpi-v4/sym_keyboard_feedback_shift.png
 SHA1-Digest: g8cnTa+NtRRv8DTRBQEO3uj0PIA=
 
 Name: res/layout/about.xml
-SHA1-Digest: mZDw/ZZpWvM0NfM3bpOKFc49NhQ=
+SHA1-Digest: cM/bIp8dZh3rTFMrKkleF4VUK8k=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_fulltrans_pressed.9.png
 SHA1-Digest: aQtdWdu3PvPOsRleFZzoyMd90pk=
@@ -718,7 +718,7 @@ Name: res/drawable-hdpi-v4/sym_keyboard_num1.png
 SHA1-Digest: V1Wcl43XLqsSgvRAu46uugLdSG8=
 
 Name: AndroidManifest.xml
-SHA1-Digest: E/DLWwEwYdfLVHhxA3FH5UuNO0Y=
+SHA1-Digest: BIx6JbgJga9Kkj/MEUBLWM47rB8=
 
 Name: res/anim/key_preview_fadeout.xml
 SHA1-Digest: bWwyvOaP2mDZ8e0S3W9+vYB4Re0=
@@ -1227,7 +1227,7 @@ Name: res/drawable-hdpi-v4/btn_keyboard_key_dark_pressed.9.png
 SHA1-Digest: aHj+FYOdTeZKHruAM9ptrSR8iOU=
 
 Name: assets/www/keymapviewformain.html
-SHA1-Digest: fYc/UBEZr2TRtsf8PT7JJ4b3bTw=
+SHA1-Digest: 2SOQJENvWFWgrNu0zefqeSi/Vvk=
 
 Name: res/drawable-mdpi-v4/sym_bkeyboard_space.png
 SHA1-Digest: E7KuiFPS/l1aKqcAJfjjY0vMYyE=

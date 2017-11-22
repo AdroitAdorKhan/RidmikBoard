@@ -1889,6 +1889,7 @@
     :cond_0
     iget-object v2, p0, Lnet/hasnath/android/keyboard/LatinKeyboard;->mSlidingLocaleIcon:Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->setDiff(I)V
     invoke-static {v2, p1}, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->access$0(Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;I)V
 
     .line 692
@@ -2142,6 +2143,7 @@
 
     check-cast v1, Lnet/hasnath/android/keyboard/LatinKeyboard$LatinKey;
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboard$LatinKey;->enableShiftLock()V
     invoke-static {v1}, Lnet/hasnath/android/keyboard/LatinKeyboard$LatinKey;->access$0(Lnet/hasnath/android/keyboard/LatinKeyboard$LatinKey;)V
 
     .line 293

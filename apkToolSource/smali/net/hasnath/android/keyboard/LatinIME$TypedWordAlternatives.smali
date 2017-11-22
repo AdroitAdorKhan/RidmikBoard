@@ -83,6 +83,7 @@
 
     iget-object v1, p0, Lnet/hasnath/android/keyboard/LatinIME$TypedWordAlternatives;->word:Lnet/hasnath/android/keyboard/WordComposer;
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinIME;->getTypedSuggestions(Lnet/hasnath/android/keyboard/WordComposer;)Ljava/util/List;
     invoke-static {v0, v1}, Lnet/hasnath/android/keyboard/LatinIME;->access$1(Lnet/hasnath/android/keyboard/LatinIME;Lnet/hasnath/android/keyboard/WordComposer;)Ljava/util/List;
 
     move-result-object v0

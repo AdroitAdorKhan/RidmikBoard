@@ -63,6 +63,7 @@
     .line 1014
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->mBackground:Landroid/graphics/drawable/Drawable;
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboard;->setDefaultBounds(Landroid/graphics/drawable/Drawable;)V
     invoke-static {p1, v0}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboard;Landroid/graphics/drawable/Drawable;)V
 
     .line 1015
@@ -85,6 +86,7 @@
 
     const/16 v2, 0x12
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboard;->getTextSizeFromTheme(II)I
     invoke-static {p1, v1, v2}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboard;II)I
 
     move-result v1
@@ -137,6 +139,7 @@
     iput v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->mMiddleX:I
 
     .line 1025
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mRes:Landroid/content/res/Resources;
     invoke-static {p1}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$3(Lnet/hasnath/android/keyboard/LatinKeyboard;)Landroid/content/res/Resources;
 
     move-result-object v0
@@ -151,6 +154,7 @@
     iput-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->mLeftDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 1027
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mRes:Landroid/content/res/Resources;
     invoke-static {p1}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$3(Lnet/hasnath/android/keyboard/LatinKeyboard;)Landroid/content/res/Resources;
 
     move-result-object v0
@@ -165,6 +169,7 @@
     iput-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->mRightDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 1028
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mContext:Landroid/content/Context;
     invoke-static {p1}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboard;)Landroid/content/Context;
 
     move-result-object v0
@@ -415,6 +420,7 @@
     .local v1, "baseline":F
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mRes:Landroid/content/res/Resources;
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$3(Lnet/hasnath/android/keyboard/LatinKeyboard;)Landroid/content/res/Resources;
 
     move-result-object v9
@@ -430,6 +436,7 @@
     .line 1115
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mThemeIndex:I
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboard;)I
 
     move-result v9
@@ -440,6 +447,7 @@
 
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mThemeIndex:I
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboard;)I
 
     move-result v9
@@ -454,6 +462,7 @@
     :cond_2
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mRes:Landroid/content/res/Resources;
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$3(Lnet/hasnath/android/keyboard/LatinKeyboard;)Landroid/content/res/Resources;
 
     move-result-object v9
@@ -477,6 +486,7 @@
     .line 1119
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mContext:Landroid/content/Context;
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboard;)Landroid/content/Context;
 
     move-result-object v9
@@ -528,6 +538,7 @@
     .line 1125
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mThemeIndex:I
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboard;)I
 
     move-result v9
@@ -538,6 +549,7 @@
 
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mThemeIndex:I
     invoke-static {v9}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboard;)I
 
     move-result v9
@@ -551,6 +563,7 @@
     .line 1126
     iget-object v9, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$SlidingLocaleDrawable;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboard;->setDefaultBounds(Landroid/graphics/drawable/Drawable;)V
     invoke-static {v9, v5}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboard;Landroid/graphics/drawable/Drawable;)V
 
     .line 1127

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap" xmlns:android="http://schemas.android.com/apk/res-auto">
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="@integer/unicode_1" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="1" android:keyEdgeFlags="left" android:keyLabel="@string/bangla_1" />
-        <Key android:codes="@integer/unicode_2" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="2" android:keyLabel="@string/bangla_2" />
-        <Key android:codes="@integer/unicode_3" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="3" android:keyLabel="@string/bangla_3" />
-        <Key android:codes="@integer/unicode_4" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="4" android:keyLabel="@string/bangla_4" />
-        <Key android:codes="@integer/unicode_5" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="5" android:keyLabel="@string/bangla_5" />
-        <Key android:codes="@integer/unicode_6" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="6" android:keyLabel="@string/bangla_6" />
-        <Key android:codes="@integer/unicode_7" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="7" android:keyLabel="@string/bangla_7" />
-        <Key android:codes="@integer/unicode_8" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="8" android:keyLabel="@string/bangla_8" />
-        <Key android:codes="@integer/unicode_9" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="9" android:keyLabel="@string/bangla_9" />
-        <Key android:codes="@integer/unicode_0" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="0" android:keyEdgeFlags="right" android:keyLabel="@string/bangla_0" />
+        <Key android:codes="@integer/unicode_1" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 1" android:keyEdgeFlags="left" android:keyLabel="@string/bangla_1" />
+        <Key android:codes="@integer/unicode_2" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 2" android:keyLabel="@string/bangla_2" />
+        <Key android:codes="@integer/unicode_3" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 3" android:keyLabel="@string/bangla_3" />
+        <Key android:codes="@integer/unicode_4" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 4" android:keyLabel="@string/bangla_4" />
+        <Key android:codes="@integer/unicode_5" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 5" android:keyLabel="@string/bangla_5" />
+        <Key android:codes="@integer/unicode_6" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 6" android:keyLabel="@string/bangla_6" />
+        <Key android:codes="@integer/unicode_7" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 7" android:keyLabel="@string/bangla_7" />
+        <Key android:codes="@integer/unicode_8" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 8" android:keyLabel="@string/bangla_8" />
+        <Key android:codes="@integer/unicode_9" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 9" android:keyLabel="@string/bangla_9" />
+        <Key android:codes="@integer/unicode_0" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="\ 0" android:keyEdgeFlags="right" android:keyLabel="@string/bangla_0" />
     </Row>
     <Row>
         <Key android:keyEdgeFlags="left" android:keyLabel="\@" />

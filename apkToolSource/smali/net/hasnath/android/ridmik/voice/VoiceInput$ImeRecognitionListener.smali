@@ -129,6 +129,7 @@
     .line 581
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/VoiceInput$ImeRecognitionListener;->this$0:Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mRecognitionView:Lnet/hasnath/android/ridmik/voice/RecognitionView;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$1(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
     move-result-object v0
@@ -166,6 +167,7 @@
 
     iget-boolean v1, p0, Lnet/hasnath/android/ridmik/voice/VoiceInput$ImeRecognitionListener;->mEndpointed:Z
 
+    # invokes: Lnet/hasnath/android/ridmik/voice/VoiceInput;->onError(IZ)V
     invoke-static {v0, p1, v1}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$3(Lnet/hasnath/android/ridmik/voice/VoiceInput;IZ)V
 
     .line 587
@@ -199,6 +201,7 @@
     .line 560
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/VoiceInput$ImeRecognitionListener;->this$0:Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mRecognitionView:Lnet/hasnath/android/ridmik/voice/RecognitionView;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$1(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
     move-result-object v0
@@ -350,6 +353,7 @@
 
     move-object/from16 v16, v0
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mUiListener:Lnet/hasnath/android/ridmik/voice/VoiceInput$UiListener;
     invoke-static/range {v16 .. v16}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$2(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/VoiceInput$UiListener;
 
     move-result-object v16
@@ -365,6 +369,7 @@
 
     move-object/from16 v16, v0
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mRecognitionView:Lnet/hasnath/android/ridmik/voice/RecognitionView;
     invoke-static/range {v16 .. v16}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$1(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
     move-result-object v16
@@ -534,6 +539,7 @@
     .line 569
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/VoiceInput$ImeRecognitionListener;->this$0:Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mRecognitionView:Lnet/hasnath/android/ridmik/voice/RecognitionView;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$1(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
     move-result-object v0

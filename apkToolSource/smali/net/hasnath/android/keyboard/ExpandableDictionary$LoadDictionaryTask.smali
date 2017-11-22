@@ -81,6 +81,7 @@
     .line 501
     iget-object v0, p0, Lnet/hasnath/android/keyboard/ExpandableDictionary$LoadDictionaryTask;->this$0:Lnet/hasnath/android/keyboard/ExpandableDictionary;
 
+    # getter for: Lnet/hasnath/android/keyboard/ExpandableDictionary;->mUpdatingLock:Ljava/lang/Object;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/ExpandableDictionary;->access$0(Lnet/hasnath/android/keyboard/ExpandableDictionary;)Ljava/lang/Object;
 
     move-result-object v1

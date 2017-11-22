@@ -2205,11 +2205,11 @@ public class LatinIME extends InputMethodService implements OnKeyboardActionList
     }
 
     private boolean applyTypedAlternatives(SelectedWord touching) {
-        int i;
         WordComposer foundWord = null;
         WordAlternatives alternatives = null;
         Iterator it = this.mWordHistory.iterator();
         while (it.hasNext()) {
+            int i;
             WordAlternatives entry = (WordAlternatives) it.next();
             if (TextUtils.equals(entry.getChosenWord(), touching.word)) {
                 if (entry instanceof TypedWordAlternatives) {

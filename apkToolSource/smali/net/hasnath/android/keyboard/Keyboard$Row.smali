@@ -81,10 +81,12 @@
 
     .line 197
     .local v0, "a":Landroid/content/res/TypedArray;
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayWidth:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$0(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v1
 
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDefaultWidth:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$1(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v2
@@ -97,10 +99,12 @@
     iput v1, p0, Lnet/hasnath/android/keyboard/Keyboard$Row;->defaultWidth:I
 
     .line 200
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayHeight:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$2(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v1
 
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDefaultHeight:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$3(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v2
@@ -116,10 +120,12 @@
     const/4 v1, 0x2
 
     .line 203
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayWidth:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$0(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v2
 
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDefaultHorizontalGap:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$4(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v3
@@ -135,10 +141,12 @@
     const/4 v1, 0x3
 
     .line 206
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayHeight:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$2(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v2
 
+    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDefaultVerticalGap:I
     invoke-static {p2}, Lnet/hasnath/android/keyboard/Keyboard;->access$5(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v3

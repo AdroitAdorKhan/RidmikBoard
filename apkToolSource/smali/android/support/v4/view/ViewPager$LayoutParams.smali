@@ -46,6 +46,7 @@
     invoke-direct {p0, p1, p2}, Landroid/view/ViewGroup$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2092
+    # getter for: Landroid/support/v4/view/ViewPager;->LAYOUT_ATTRS:[I
     invoke-static {}, Landroid/support/v4/view/ViewPager;->access$100()[I
 
     move-result-object v1

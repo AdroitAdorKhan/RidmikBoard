@@ -51,6 +51,7 @@
     .line 314
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/RecognitionView$7;->this$0:Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
+    # invokes: Lnet/hasnath/android/ridmik/voice/RecognitionView;->exitWorking()V
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$17(Lnet/hasnath/android/ridmik/voice/RecognitionView;)V
 
     .line 315

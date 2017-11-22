@@ -2952,6 +2952,7 @@
 
     iget-object v3, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mSymbolsId:Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;
 
+    # invokes: Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;->equals(Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;)Z
     invoke-static {v2, v3}, Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;)Z
 
     move-result v2
@@ -2962,6 +2963,7 @@
 
     iget-object v3, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mSymbolsShiftedId:Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;
 
+    # invokes: Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;->equals(Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;)Z
     invoke-static {v2, v3}, Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;Lnet/hasnath/android/keyboard/KeyboardSwitcher$KeyboardId;)Z
 
     move-result v2

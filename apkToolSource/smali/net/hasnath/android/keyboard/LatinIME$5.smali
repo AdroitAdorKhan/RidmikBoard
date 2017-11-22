@@ -50,6 +50,7 @@
     .line 2433
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$5;->this$0:Lnet/hasnath/android/keyboard/LatinIME;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinIME;->mVoiceInput:Lnet/hasnath/android/ridmik/voice/VoiceInput;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$11(Lnet/hasnath/android/keyboard/LatinIME;)Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
     move-result-object v0
@@ -61,6 +62,7 @@
 
     iget-boolean v1, p0, Lnet/hasnath/android/keyboard/LatinIME$5;->val$swipe:Z
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinIME;->reallyStartListening(Z)V
     invoke-static {v0, v1}, Lnet/hasnath/android/keyboard/LatinIME;->access$12(Lnet/hasnath/android/keyboard/LatinIME;Z)V
 
     .line 2435

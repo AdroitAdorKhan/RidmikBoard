@@ -62,6 +62,7 @@
     .line 2371
     iget-object v2, p0, Lnet/hasnath/android/keyboard/LatinIME$4;->this$0:Lnet/hasnath/android/keyboard/LatinIME;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinIME;->mVoiceInput:Lnet/hasnath/android/ridmik/voice/VoiceInput;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinIME;->access$11(Lnet/hasnath/android/keyboard/LatinIME;)Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
     move-result-object v2
@@ -112,6 +113,7 @@
     .line 2379
     iget-object v2, p0, Lnet/hasnath/android/keyboard/LatinIME$4;->this$0:Lnet/hasnath/android/keyboard/LatinIME;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinIME;->mVoiceInput:Lnet/hasnath/android/ridmik/voice/VoiceInput;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinIME;->access$11(Lnet/hasnath/android/keyboard/LatinIME;)Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
     move-result-object v2

@@ -101,6 +101,7 @@
     .local v7, "travelY":I
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeTracker:Lnet/hasnath/android/keyboard/SwipeTracker;
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/SwipeTracker;
 
     move-result-object v8
@@ -112,6 +113,7 @@
     .line 579
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeTracker:Lnet/hasnath/android/keyboard/SwipeTracker;
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/SwipeTracker;
 
     move-result-object v8
@@ -124,6 +126,7 @@
     .local v4, "endingVelocityX":F
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeTracker:Lnet/hasnath/android/keyboard/SwipeTracker;
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$5(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/SwipeTracker;
 
     move-result-object v8
@@ -136,6 +139,7 @@
     .local v5, "endingVelocityY":F
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeThreshold:I
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$6(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)I
 
     move-result v8
@@ -159,6 +163,7 @@
     .line 582
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mDisambiguateSwipe:Z
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$7(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Z
 
     move-result v8
@@ -189,6 +194,7 @@
     :cond_0
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeThreshold:I
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$6(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)I
 
     move-result v8
@@ -216,6 +222,7 @@
     .line 587
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mDisambiguateSwipe:Z
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$7(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Z
 
     move-result v8
@@ -244,6 +251,7 @@
     :cond_1
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeThreshold:I
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$6(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)I
 
     move-result v8
@@ -271,6 +279,7 @@
     .line 592
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mDisambiguateSwipe:Z
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$7(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Z
 
     move-result v8
@@ -299,6 +308,7 @@
     :cond_2
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mSwipeThreshold:I
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$6(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)I
 
     move-result v8
@@ -326,6 +336,7 @@
     .line 597
     iget-object v8, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$1;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
+    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mDisambiguateSwipe:Z
     invoke-static {v8}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$7(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Z
 
     move-result v8

@@ -43,6 +43,7 @@
     .line 3258
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$1;->this$0:Lnet/hasnath/android/keyboard/LatinIME;
 
+    # invokes: Lnet/hasnath/android/keyboard/LatinIME;->updateRingerMode()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$0(Lnet/hasnath/android/keyboard/LatinIME;)V
 
     .line 3259
