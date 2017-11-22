@@ -1,5 +1,5 @@
 # RidmikBoard
-A MOD of original Ridmik Bangla Keyboard.
+A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
 # CHANGES
 # LATEST | BUILD #12 | UPDATED 22 November, 2017
 
