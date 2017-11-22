@@ -8,7 +8,7 @@ v. 1.6.3 - Stable
 - [UPDATED] Github Repository, and in-app update link now connected to Github, direct source.
 - [UPDATED] In-app update service.
 - [UPDATED] UI Elements.
-- [UPDATED] Few Bugs to make sure they won't bug anymore in near future! :P
+- [FIX] Few Bugs to make sure they won't bug anymore in near future! :P
 
 v. 1.6.1_User(REQUEST)Edition[UE]_alpha
 - [UPDATED] Reversed back emoji base to stock Ridmik Keyboard. ACCORDING TO THIS ISSUE:  (https://github.com/AdroitAdorKhan/RidmikBoard/issues/4)
