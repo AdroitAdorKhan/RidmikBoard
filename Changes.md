@@ -1,7 +1,11 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard.
 # CHANGES
-# LATEST | BUILD #10 | UPDATED 19 November, 2017
+# LATEST | BUILD #11 | UPDATED 22 November, 2017
+
+v. 1.6.1_User(REQUEST)Edition[UE]_alpha
+- [UPDATED] Reversed back emoji base to stock Ridmik Keyboard. ACCORDING TO THIS ISSUE:  (https://github.com/AdroitAdorKhan/RidmikBoard/issues/4)
+- [FIX] Code. (Not stable yet!)
 
 v. 1.6.0 - Stable
 - [FIX] Immediate fix to a fatal Update Error! (UuuHH!)
