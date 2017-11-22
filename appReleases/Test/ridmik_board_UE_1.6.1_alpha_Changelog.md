@@ -2,4 +2,4 @@
 
 -**[UPDATED]** Reversed back emoji base to stock Ridmik Keyboard.
 
--**[FIX]** Code. (Note stable yet!)
+-**[FIX]** Code. (Not stable yet!)
