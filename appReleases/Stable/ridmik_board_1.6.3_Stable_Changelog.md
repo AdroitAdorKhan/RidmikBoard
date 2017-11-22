@@ -8,4 +8,4 @@
 
 -**[UPDATED]** UI Elements.
 
--**[UPDATED]** Few Bugs to make sure they won't bug anymore in near future! :P 
+-**[FIX]** Few Bugs to make sure they won't bug anymore in near future! :P 
