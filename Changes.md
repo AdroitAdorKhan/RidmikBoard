@@ -1,7 +1,15 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
 # CHANGES
-# LATEST | BUILD #12 | UPDATED 22 November, 2017
+# LATEST | BUILD #13 | UPDATED 25 November, 2017
+
+v. 1.6.5 - Stable
+
+- [UPDATED] Long Press Delay, default changed to 150ms! Now emoji slides and long pressing functions will work in an instant! 
+- [FIX] Long pressing enter button creating lines, instead of showing emojis.
+- [FIX] In-app update service now requires max. 5KB of your bandwidth!
+- [FIX] UI Elements.
+- [FIX] Bugs. 
 
 v. 1.6.3 - Stable
 - [NEW] Check Latest Release directly from app now! (Though, it won't notify, but it will let you check via app. If any new version is available, it will check via internet. Just 5-10KB internet is required to check!)
