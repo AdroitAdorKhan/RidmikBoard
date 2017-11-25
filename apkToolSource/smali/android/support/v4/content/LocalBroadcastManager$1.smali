@@ -55,7 +55,6 @@
     :pswitch_0
     iget-object v0, p0, Landroid/support/v4/content/LocalBroadcastManager$1;->this$0:Landroid/support/v4/content/LocalBroadcastManager;
 
-    # invokes: Landroid/support/v4/content/LocalBroadcastManager;->executePendingBroadcasts()V
     invoke-static {v0}, Landroid/support/v4/content/LocalBroadcastManager;->access$000(Landroid/support/v4/content/LocalBroadcastManager;)V
 
     goto :goto_0

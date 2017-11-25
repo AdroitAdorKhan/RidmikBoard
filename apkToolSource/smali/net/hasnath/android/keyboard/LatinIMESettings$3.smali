@@ -51,14 +51,12 @@
     .line 259
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIMESettings$3;->this$0:Lnet/hasnath/android/keyboard/LatinIMESettings;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIMESettings;->mVoicePreference:Landroid/preference/ListPreference;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIMESettings;->access$0(Lnet/hasnath/android/keyboard/LatinIMESettings;)Landroid/preference/ListPreference;
 
     move-result-object v0
 
     iget-object v1, p0, Lnet/hasnath/android/keyboard/LatinIMESettings$3;->this$0:Lnet/hasnath/android/keyboard/LatinIMESettings;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIMESettings;->mVoiceModeOff:Ljava/lang/String;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/LatinIMESettings;->access$1(Lnet/hasnath/android/keyboard/LatinIMESettings;)Ljava/lang/String;
 
     move-result-object v1
@@ -68,7 +66,6 @@
     .line 260
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIMESettings$3;->this$0:Lnet/hasnath/android/keyboard/LatinIMESettings;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIMESettings;->mLogger:Lnet/hasnath/android/ridmik/voice/VoiceInputLogger;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIMESettings;->access$2(Lnet/hasnath/android/keyboard/LatinIMESettings;)Lnet/hasnath/android/ridmik/voice/VoiceInputLogger;
 
     move-result-object v0
@@ -80,7 +77,6 @@
     :goto_0
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIMESettings$3;->this$0:Lnet/hasnath/android/keyboard/LatinIMESettings;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinIMESettings;->updateVoicePreference()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIMESettings;->access$4(Lnet/hasnath/android/keyboard/LatinIMESettings;)V
 
     .line 266
@@ -102,7 +98,6 @@
     .line 263
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIMESettings$3;->this$0:Lnet/hasnath/android/keyboard/LatinIMESettings;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIMESettings;->mLogger:Lnet/hasnath/android/ridmik/voice/VoiceInputLogger;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIMESettings;->access$2(Lnet/hasnath/android/keyboard/LatinIMESettings;)Lnet/hasnath/android/ridmik/voice/VoiceInputLogger;
 
     move-result-object v0

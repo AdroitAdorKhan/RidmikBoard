@@ -1118,7 +1118,6 @@
     .line 2860
     check-cast v4, Lnet/hasnath/android/keyboard/LatinIME$TypedWordAlternatives;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIME$TypedWordAlternatives;->word:Lnet/hasnath/android/keyboard/WordComposer;
     invoke-static {v4}, Lnet/hasnath/android/keyboard/LatinIME$TypedWordAlternatives;->access$0(Lnet/hasnath/android/keyboard/LatinIME$TypedWordAlternatives;)Lnet/hasnath/android/keyboard/WordComposer;
 
     move-result-object v2

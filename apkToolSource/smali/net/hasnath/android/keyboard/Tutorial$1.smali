@@ -58,7 +58,6 @@
     .local v0, "bubba":Lnet/hasnath/android/keyboard/Tutorial$Bubble;
     iget-object v1, p0, Lnet/hasnath/android/keyboard/Tutorial$1;->this$0:Lnet/hasnath/android/keyboard/Tutorial;
 
-    # getter for: Lnet/hasnath/android/keyboard/Tutorial;->mLocation:[I
     invoke-static {v1}, Lnet/hasnath/android/keyboard/Tutorial;->access$0(Lnet/hasnath/android/keyboard/Tutorial;)[I
 
     move-result-object v1
@@ -69,7 +68,6 @@
 
     iget-object v2, p0, Lnet/hasnath/android/keyboard/Tutorial$1;->this$0:Lnet/hasnath/android/keyboard/Tutorial;
 
-    # getter for: Lnet/hasnath/android/keyboard/Tutorial;->mLocation:[I
     invoke-static {v2}, Lnet/hasnath/android/keyboard/Tutorial;->access$0(Lnet/hasnath/android/keyboard/Tutorial;)[I
 
     move-result-object v2

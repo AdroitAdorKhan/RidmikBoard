@@ -128,7 +128,6 @@
 
     .line 323
     .local v13, "totalRowCount":I
-    # getter for: Lnet/hasnath/android/keyboard/UserBigramDictionarya;->sMaxUserBigrams:I
     invoke-static {}, Lnet/hasnath/android/keyboard/UserBigramDictionarya;->access$0()I
 
     move-result v0
@@ -136,14 +135,12 @@
     if-le v13, v0, :cond_0
 
     .line 324
-    # getter for: Lnet/hasnath/android/keyboard/UserBigramDictionarya;->sMaxUserBigrams:I
     invoke-static {}, Lnet/hasnath/android/keyboard/UserBigramDictionarya;->access$0()I
 
     move-result v0
 
     sub-int v0, v13, v0
 
-    # getter for: Lnet/hasnath/android/keyboard/UserBigramDictionarya;->sDeleteUserBigrams:I
     invoke-static {}, Lnet/hasnath/android/keyboard/UserBigramDictionarya;->access$1()I
 
     move-result v1

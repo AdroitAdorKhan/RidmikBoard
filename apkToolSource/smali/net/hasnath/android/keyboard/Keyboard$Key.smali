@@ -198,7 +198,6 @@
     .local v0, "a":Landroid/content/res/TypedArray;
     iget-object v3, p0, Lnet/hasnath/android/keyboard/Keyboard$Key;->keyboard:Lnet/hasnath/android/keyboard/Keyboard;
 
-    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayWidth:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/Keyboard;->access$0(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v3
@@ -215,7 +214,6 @@
     .line 348
     iget-object v3, p0, Lnet/hasnath/android/keyboard/Keyboard$Key;->keyboard:Lnet/hasnath/android/keyboard/Keyboard;
 
-    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayHeight:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/Keyboard;->access$2(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v3
@@ -232,7 +230,6 @@
     .line 351
     iget-object v3, p0, Lnet/hasnath/android/keyboard/Keyboard$Key;->keyboard:Lnet/hasnath/android/keyboard/Keyboard;
 
-    # getter for: Lnet/hasnath/android/keyboard/Keyboard;->mDisplayWidth:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/Keyboard;->access$0(Lnet/hasnath/android/keyboard/Keyboard;)I
 
     move-result v3
@@ -547,7 +544,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 318
-    # getter for: Lnet/hasnath/android/keyboard/Keyboard$Row;->parent:Lnet/hasnath/android/keyboard/Keyboard;
     invoke-static {p1}, Lnet/hasnath/android/keyboard/Keyboard$Row;->access$0(Lnet/hasnath/android/keyboard/Keyboard$Row;)Lnet/hasnath/android/keyboard/Keyboard;
 
     move-result-object v0

@@ -44,7 +44,6 @@
     .line 1321
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mKeyboardActionListener:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$8(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 1322
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->dismissPopupKeyboard()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$9(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)V
 
     .line 1323
@@ -72,7 +70,6 @@
     .line 1311
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mKeyboardActionListener:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$8(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
 
     move-result-object v0
@@ -82,7 +79,6 @@
     .line 1312
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->dismissPopupKeyboard()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$9(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)V
 
     .line 1313
@@ -97,7 +93,6 @@
     .line 1334
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mKeyboardActionListener:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$8(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
 
     move-result-object v0
@@ -116,7 +111,6 @@
     .line 1337
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mKeyboardActionListener:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$8(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
 
     move-result-object v0
@@ -135,7 +129,6 @@
     .line 1316
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mKeyboardActionListener:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$8(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$OnKeyboardActionListener;
 
     move-result-object v0
@@ -145,7 +138,6 @@
     .line 1317
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$2;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->dismissPopupKeyboard()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$9(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)V
 
     .line 1318

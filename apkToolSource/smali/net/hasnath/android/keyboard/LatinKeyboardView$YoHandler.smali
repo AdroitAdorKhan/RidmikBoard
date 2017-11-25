@@ -60,7 +60,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mPlaying:Z
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$0(Lnet/hasnath/android/keyboard/LatinKeyboardView;)Z
 
     move-result v2
@@ -87,7 +86,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v2
@@ -96,7 +94,6 @@
 
     iget-object v3, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringToPlay:Ljava/lang/String;
     invoke-static {v3}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboardView;)Ljava/lang/String;
 
     move-result-object v3
@@ -124,7 +121,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringToPlay:Ljava/lang/String;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboardView;)Ljava/lang/String;
 
     move-result-object v2
@@ -133,7 +129,6 @@
 
     iget-object v3, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v3
@@ -153,7 +148,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mAsciiKeys:[Lnet/hasnath/android/keyboard/Keyboard$Key;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboardView;)[Lnet/hasnath/android/keyboard/Keyboard$Key;
 
     move-result-object v2
@@ -167,7 +161,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mAsciiKeys:[Lnet/hasnath/android/keyboard/Keyboard$Key;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboardView;)[Lnet/hasnath/android/keyboard/Keyboard$Key;
 
     move-result-object v2
@@ -184,7 +177,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mAsciiKeys:[Lnet/hasnath/android/keyboard/Keyboard$Key;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboardView;)[Lnet/hasnath/android/keyboard/Keyboard$Key;
 
     move-result-object v2
@@ -262,7 +254,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v3
@@ -276,7 +267,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v2
@@ -285,7 +275,6 @@
 
     iget-object v3, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringToPlay:Ljava/lang/String;
     invoke-static {v3}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboardView;)Ljava/lang/String;
 
     move-result-object v3
@@ -313,7 +302,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringToPlay:Ljava/lang/String;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboardView;)Ljava/lang/String;
 
     move-result-object v2
@@ -322,7 +310,6 @@
 
     iget-object v3, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v3
@@ -340,7 +327,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringToPlay:Ljava/lang/String;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboardView;)Ljava/lang/String;
 
     move-result-object v2
@@ -349,7 +335,6 @@
 
     iget-object v3, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v3
@@ -364,7 +349,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mAsciiKeys:[Lnet/hasnath/android/keyboard/Keyboard$Key;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboardView;)[Lnet/hasnath/android/keyboard/Keyboard$Key;
 
     move-result-object v2
@@ -381,7 +365,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mAsciiKeys:[Lnet/hasnath/android/keyboard/Keyboard$Key;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboardView;)[Lnet/hasnath/android/keyboard/Keyboard$Key;
 
     move-result-object v2
@@ -398,7 +381,6 @@
 
     iget-object v2, v0, Lnet/hasnath/android/keyboard/LatinKeyboardView$YoHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardView;->mStringIndex:I
     invoke-static {v2}, Lnet/hasnath/android/keyboard/LatinKeyboardView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardView;)I
 
     move-result v3

@@ -270,7 +270,6 @@
     .line 984
     iget-object v3, p0, Lnet/hasnath/android/keyboard/LatinKeyboard$LatinKey;->this$0:Lnet/hasnath/android/keyboard/LatinKeyboard;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboard;->mVerticalGap:I
     invoke-static {v3}, Lnet/hasnath/android/keyboard/LatinKeyboard;->access$0(Lnet/hasnath/android/keyboard/LatinKeyboard;)I
 
     move-result v0

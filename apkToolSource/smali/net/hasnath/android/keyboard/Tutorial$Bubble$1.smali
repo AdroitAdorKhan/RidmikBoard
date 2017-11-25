@@ -46,7 +46,6 @@
     .line 138
     iget-object v0, p0, Lnet/hasnath/android/keyboard/Tutorial$Bubble$1;->this$1:Lnet/hasnath/android/keyboard/Tutorial$Bubble;
 
-    # getter for: Lnet/hasnath/android/keyboard/Tutorial$Bubble;->this$0:Lnet/hasnath/android/keyboard/Tutorial;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/Tutorial$Bubble;->access$0(Lnet/hasnath/android/keyboard/Tutorial$Bubble;)Lnet/hasnath/android/keyboard/Tutorial;
 
     move-result-object v0

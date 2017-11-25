@@ -67,7 +67,6 @@
 
     iget-object v3, p0, Lnet/hasnath/android/ridmik/voice/RecognitionView$6;->this$0:Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
-    # getter for: Lnet/hasnath/android/ridmik/voice/RecognitionView;->mContext:Landroid/content/Context;
     invoke-static {v3}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$11(Lnet/hasnath/android/ridmik/voice/RecognitionView;)Landroid/content/Context;
 
     move-result-object v3
@@ -82,7 +81,6 @@
 
     iget-object v5, p0, Lnet/hasnath/android/ridmik/voice/RecognitionView$6;->this$0:Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
-    # getter for: Lnet/hasnath/android/ridmik/voice/RecognitionView;->mContext:Landroid/content/Context;
     invoke-static {v5}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$11(Lnet/hasnath/android/ridmik/voice/RecognitionView;)Landroid/content/Context;
 
     move-result-object v5
@@ -95,7 +93,6 @@
     move-result-object v5
 
     .line 195
-    # invokes: Lnet/hasnath/android/ridmik/voice/RecognitionView;->prepareDialog(ZLjava/lang/CharSequence;Landroid/graphics/drawable/Drawable;Ljava/lang/CharSequence;)V
     invoke-static {v1, v2, v3, v4, v5}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$13(Lnet/hasnath/android/ridmik/voice/RecognitionView;ZLjava/lang/CharSequence;Landroid/graphics/drawable/Drawable;Ljava/lang/CharSequence;)V
 
     .line 197
@@ -146,7 +143,6 @@
 
     div-int/lit8 v3, v3, 0x2
 
-    # invokes: Lnet/hasnath/android/ridmik/voice/RecognitionView;->showWave(Ljava/nio/ShortBuffer;II)V
     invoke-static {v1, v0, v2, v3}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$16(Lnet/hasnath/android/ridmik/voice/RecognitionView;Ljava/nio/ShortBuffer;II)V
 
     .line 202
