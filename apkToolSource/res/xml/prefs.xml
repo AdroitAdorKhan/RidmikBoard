@@ -18,7 +18,7 @@
     <CheckBoxPreference android:persistent="true" android:title="Learn words" android:key="learn_word_as_typing" android:summary="learn new words from your typing and predict from them afterwards" android:defaultValue="true" />
     <CheckBoxPreference android:persistent="true" android:title="@string/prefs_volume_cursor" android:key="volume_cursor" android:summary="@string/prefs_volume_cursor_summary" android:defaultValue="true" />
     <ListPreference android:persistent="true" android:entries="@array/settings_key_modes" android:title="@string/prefs_settings_key" android:key="settings_key" android:defaultValue="@string/settings_key_mode_always_hide" android:entryValues="@array/settings_key_modes_values" />
-    <net.hasnath.android.keyboard.DialogSeekBarPreference android:persistent="true" android:title="@string/long_press_delay" android:key="long_press_delay" android:defaultValue="@integer/config_long_press_key_timeout" min="50" max="1000" step="5" />
+    <net.hasnath.android.keyboard.DialogSeekBarPreference android:persistent="true" android:title="@string/long_press_delay" android:key="long_press_delay" android:defaultValue="@integer/config_long_press_key_timeout" min="100" max="1000" step="5" />
     <CheckBoxPreference android:persistent="true" android:title="@string/cut_copy_paste" android:key="cut_copy_paste" android:summary="@string/cut_copy_paste_summary" android:defaultValue="true" />
     <ListPreference android:persistent="true" android:entries="@array/voice_input_modes" android:title="@string/voice_input" android:key="voice_mode" android:defaultValue="@string/voice_mode_symbols" android:entryValues="@array/voice_input_modes_values" />
     <PreferenceCategory android:title="@string/prediction_category" android:key="prediction_settings">
