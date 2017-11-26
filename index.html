@@ -1,155 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Ridmik Board - The Bangla Keyboard!</title>
-<style> 
-p {
-    font-family: "Arial, Helvetica, sans-serif";
-}
-	
-.classname {
-	-moz-box-shadow:inset 0px 1px 0px 0px #0f8bff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #0f8bff;
-	box-shadow:inset 0px 1px 0px 0px #0f8bff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1287fc), color-stop(1, #378de5) );
-	background:-moz-linear-gradient( center top, #1287fc 5%, #378de5 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1287fc', endColorstr='#378de5');
-	background-color:#1287fc;
-	-webkit-border-top-left-radius:0px;
-	-moz-border-radius-topleft:0px;
-	border-top-left-radius:0px;
-	-webkit-border-top-right-radius:0px;
-	-moz-border-radius-topright:0px;
-	border-top-right-radius:0px;
-	-webkit-border-bottom-right-radius:0px;
-	-moz-border-radius-bottomright:0px;
-	border-bottom-right-radius:0px;
-	-webkit-border-bottom-left-radius:0px;
-	-moz-border-radius-bottomleft:0px;
-	border-bottom-left-radius:0px;
-text-indent:0;
-	border:1px solid #0779eb;
-	display:inline-block;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	font-style:normal;
-height:30px;
-	line-height:30px;
-width:85px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #528ecc;
-}.classname:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #1287fc) );
-	background:-moz-linear-gradient( center top, #378de5 5%, #1287fc 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#1287fc');
-	background-color:#378de5;
-}.classname:active {
-	position:relative;
-	top:1px;
-}
-
-
-.flex-container {
-    display: -webkit-flex;
-    display: flex;  
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    text-align: center;
-}
-
-.flex-container > * {
-    padding: 15px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
-}
-
-.article {
-    text-align: left;
-}
-
-header {background: #5290F5;color:white;}
-footer {background: #aaa;color:white;}
-.nav {background:#eee;}
-
-.nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-.nav ul a {
-    text-decoration: none;
-}
-
-@media all and (min-width: 768px) {
-    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
-    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
-    footer {-webkit-order:3;order:3;}
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/w3images/onepage_restaurant.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 </style>
-</head>
 <body>
 
-<div class="flex-container">
-<header>
-<img src="https://github.com/AdroitAdorKhan/RidmikBoard/raw/master/appGraphics/Web/title_logo.png" alt="Ridmik Board" style="width:175px;height:123px;"><br/>
-  <font size="6">Ridmik Board</font>
-  <br/><font size="5">The Bangla Keyboard</font>
-  <br/>A MOD of original Ridmik Keyboard!
-</header>
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>logo</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
+    <p class="w3-large">42 village St, New York</p>
+    <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</div>
 
-<nav class="nav">
-<ul>
-<font size="4" color="#5290F5"><b>Ridmik Board</b></font> Links
-  <li>- <a href="https://forum.xda-developers.com/android/apps-games/app-ridmik-board-bangla-keyboard-t3709956">XDA Project</a></li>
-  <li>- <a href="https://labs.xda-developers.com/store/app/ridmik.board.ador">XDA Labs</a></li>
-  <li>- <a href="https://github.com/AdroitAdorKhan/RidmikBoard">Github Repository</a></li>
-<br/>Maintainer
-  <br/><font size="4" color="#5290F5"><b>Nayem Ador</b></font>
-    <li><a href="https://forum.xda-developers.com/member.php?u=6150654">XDA</a> | <a href="fb.com/adroitadorkhan">Facebook</a> | <a href="twitter.com/adroitadorkhan">Twitter</a> | <a href="plus.google.com/+AdroitAdor">G+</a> | <a href="t.me/AdroitAdorKhan">Telegram</a></li>
-</ul>
-</nav>
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Repository</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Tomato Soup <b>$2.50</b></h5>
+      <h5>Chicken Salad <b>$3.50</b></h5>
+      <h5>Bread and Butter <b>$1.00</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Main Courses</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
+      <h5>Italian Pizza <b>$5.50</b></h5>
+      <h5>Veggie Pasta <b>$4.00</b></h5>
+      <h5>Chicken and Potatoes <b>$6.50</b></h5>
+      <h5>Deluxe Burger <b>$5.00</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Desserts</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Fruit Salad <b>$2.50</b></h5>
+      <h5>Ice cream <b>$2.00</b></h5>
+      <h5>Chocolate Cake <b>$4.00</b></h5>
+      <h5>Cheese <b>$5.50</b></h5>
+    </div>
+  </div>
+</div>
 
-<article class="article">
-  <font size="5" color="#5290F5"><b>Welcome to Ridmik Board Web!</b></font>
-  <p>Ridmik Board is basically a mod of <a href="https://play.google.com/store/apps/details?id=ridmik.keyboard">Ridmik Bangla Keyboard</a>. Ridmik Keyboard is a Bengali and English Keyboard for Android 2.3+. Original app wasn't being updated for long time. So I thought about bringing few changes, and make if more user friendly. That's all! </p>
-  <font size="5" color="#5290F5"><b>Development</b></font>
-  <p>As I'm a newbie and I don't have the original source code of ridmik Keyboard, I needed to mod the original app and bring changes. This was totally for personal usage. But many of us like me struggled with older emojis and old school themes. So this initiate was to change emojis and themes and make app user friendly! I'm working on this prject and I'll continue till I get bore or Ridmik Dev brings new update! :P 
-  <br/>
-  <br/>Repository
-  <br/>
-  <br/><a href="https://github.com/AdroitAdorKhan/RidmikBoard" class="classname">Github</a> 
-  <br/>
-  <br/>Source Code
-  <br/>
-  <br/><a href="https://github.com/AdroitAdorKhan/RidmikBoard/tree/master/apkSource" class="classname">Apk</a> <a href="https://github.com/AdroitAdorKhan/RidmikBoard/tree/master/apkToolSource" class="classname">ApkTool</a> <a href="https://github.com/AdroitAdorKhan/RidmikBoard/tree/master/javaCode/classes.dex" class="classname">Java</a></p>
-  <font size="5" color="#5290F5"><b>App Information</b></font>
-  <p><b>Version</b> <img src="https://raw.githubusercontent.com/AdroitAdorKhan/RidmikBoard/master/appGraphics/u_an.png" alt="Update"> <b>Ridmik Base</b> 4.2.1
-  <br/><b>Download Size</b> 2.69 MB <b>Based on</b> Ridmik Keyboard</p>
-  <font size="5" color="#5290F5"><b>Downloads</b></font>
-  <p><a href="https://forum.xda-developers.com/devdb/project/?id=23360#downloads" class="classname">XDA</a> <a href="https://labs.xda-developers.com/store/app/ridmik.board.ador" class="classname">XDA Labs</a> <a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases" class="classname">Github</a> <a href="https://github.com/AdroitAdorKhan/RidmikBoard/blob/master/Changes.md" class="classname">Changelog</a>
-  <br/>
-  <br/>
-  <font size="5" color="#5290F5"><b>If You have anything to say!</b></font>
-  <br/><form action="mailto:connect.adroit@live.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-<br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-<br>
-Comment:<br>
-<input type="text" name="comment" size="30"><br><br>
-<input type="submit" value="Submit">
-<input type="reset" value="Reset">
-</form>
-<br/>
-<font size="6" color="#5290F5">Enjoy!</font>
-</article>
-
-<footer>Copyright &copy; Ador</footer>
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
 </div>
 
 </body>
 </html>
+
