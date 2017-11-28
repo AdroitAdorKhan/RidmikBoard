@@ -8,7 +8,7 @@ Ridmik Board is basically a mod of Ridmik Bangla Keyboard. Original app wasn't b
 * Changelog - https://github.com/AdroitAdorKhan/RidmikBoard/blob/master/Changes.md
 * XDA Project - https://forum.xda-developers.com/android/apps-games/app-ridmik-board-bangla-keyboard-t3709956
 * XDA Labs - https://labs.xda-developers.com/store/app/ridmik.board.ador
-
+* WEB - https://adroitadorkhan.github.io/RidmikBoard/
 
 ### Maintainer
 ## Nayem Ador
