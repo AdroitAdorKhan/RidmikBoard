@@ -1,11 +1,11 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
 # CHANGES
-# LATEST | BUILD #13 | UPDATED 25 November, 2017
+# LATEST | BUILD #14 | UPDATED 29 November, 2017
 
 v. 1.7.0 - Stable
 
-- [NEW] Voice Typing works now! Yea, VOICE TYPING! Recognises your English Voice in an instant! :D
+- [NEW] Voice Typing works now! Yea, VOICE TYPING! Recognises your English Voice in an instant! :D (GIVE PERMISSIONS. DOESN'T WORKING ON ANDROID 7+ DEVICES YET!)
 - [NEW] Now long pressi '. (Full Stop)' or '। (দাড়ি)' to get access to new Instant Smileys!
 - [NEW] WebView Main Updated with NEW Gradient, and Ridmik Color Accent web look.
 - [NEW] Keymap Updated with new Gradient Color, and now can be found in Tutorial Menu.
