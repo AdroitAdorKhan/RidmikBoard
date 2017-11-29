@@ -1,7 +1,7 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
 # CHANGES
-# LATEST | BUILD #19 | UPDATED 29 November, 2017
+# LATEST | BUILD #14 | UPDATED 29 November, 2017
 
 v. 1.7.0 - Stable
 
