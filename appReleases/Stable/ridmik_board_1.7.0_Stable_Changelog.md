@@ -2,7 +2,7 @@
 
 -**[NEW]** Voice Typing works now! Yea, VOICE TYPING! Recognises your English Voice in an instant! :D
 
--**[NEW]** Now long pressing 'Full Stop' or '। (দাড়ি)' to get access to new Instant Smileys!
+-**[NEW]** Now long press '. (Full Stop)' or '। (দাড়ি)' to get access to new Instant Smileys!
 
 -**[NEW]** WebView Main Updated with NEW Gradient, and Ridmik Color Accent web look.
 
