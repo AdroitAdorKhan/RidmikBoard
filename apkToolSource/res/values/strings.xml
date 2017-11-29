@@ -131,7 +131,7 @@
     <string name="cut_copy_paste_summary">Long press on X, C, V for cut, copy, paste</string>
     <string name="contact_suggestion">Contact Suggestion</string>
     <string name="contact_suggestion_summary">show suggestion from your contact names</string>
-    <string name="english_ime_name">Ridmik Board - The Bangla Keyboard!</string>
+    <string name="english_ime_name">Ridmik Board</string>
     <string name="hardware_ime_name">Ridmik HardKeys</string>
     <string name="english_ime_settings">Ridmik Board Settings</string>
     <string name="english_ime_input_options">Input options</string>
