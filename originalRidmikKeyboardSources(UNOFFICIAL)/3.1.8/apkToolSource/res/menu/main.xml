@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tutorialmain" android:title="Tutorial" />
+    <item android:id="@id/findonfacebook" android:title="Facebook Page" />
+    <item android:id="@id/ratemain" android:title="Rate" />
+    <item android:id="@id/feedback" android:title="Feedback" />
+    <item android:id="@id/settingsmain" android:title="Settings" />
+    <item android:id="@id/aboutmain" android:title="About" />
+</menu>
