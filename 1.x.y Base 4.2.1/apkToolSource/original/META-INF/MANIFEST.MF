@@ -15,7 +15,7 @@ SHA1-Digest: NtMu5aPoxWpPiCEKYoPoF0W3VEo=
 
 Name: res/drawable-xxhdpi-v4/btn_keyboard_key_pressed_on_lxx_light.9.p
  ng
-SHA1-Digest: R7oepp8NCEYH1XxOHFnAd0oXnAQ=
+SHA1-Digest: 7uM+Bgcc0LIslCXIwahlK4MW+Jc=
 
 Name: res/drawable-hdpi-v4/sym_keyboard_feedback_language_arrows_left.
  png
@@ -56,7 +56,7 @@ SHA1-Digest: e9YZVmoGO5FAAtWkKXYsFZI0kzM=
 
 Name: res/drawable-xxhdpi-v4/btn_keyboard_key_pressed_on_lxx_dark.9.pn
  g
-SHA1-Digest: A3/CEoIoWRUYkgMF9dvk/lExh2o=
+SHA1-Digest: 0AnIhtUsFQwxxVtryJcdxqQrIIQ=
 
 Name: res/drawable-mdpi-v4/sym_keyboard_shift.png
 SHA1-Digest: 1EIrTrgOb1DZ/4OICLwkMg6sKEg=
@@ -65,7 +65,7 @@ Name: res/drawable-xxhdpi-v4/sym_keyboard_space_lxx_dark.png
 SHA1-Digest: t35aMC4C+XMAiCfh5hJQML8ISIE=
 
 Name: res/xml/popup_punctuation.xml
-SHA1-Digest: UTQh/09rFAJ+ppOtQ7kXNcblaFw=
+SHA1-Digest: Ii47eRm2yXZtwBzI7iZ6OyxvgAY=
 
 Name: res/xml/kbd_unijoy_shift.xml
 SHA1-Digest: DUmlmHQloDWEMVDclDtweGMkOjw=
@@ -89,7 +89,7 @@ Name: res/layout/candidates_lolipop.xml
 SHA1-Digest: bHOOunHN/HKDns0sZwIf1aBLxBw=
 
 Name: resources.arsc
-SHA1-Digest: hVd5EyTeZj8uG+1lEm2PpisZsOk=
+SHA1-Digest: YhrEs/nc9wcjrNbRRY6Pz5S25i0=
 
 Name: res/drawable-hdpi-v4/sym_keyboard_numalt.png
 SHA1-Digest: Gt7Uuo6tkMlCO4lkSAMxxXxdNgg=
@@ -172,13 +172,13 @@ Name: res/drawable-xxhdpi-v4/btn_keyboard_key_active_lxx_light.9.png
 SHA1-Digest: vFGdD/2zY0Vr+dPYA0WsgMZm75M=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_light_pressed_holo.9.png
-SHA1-Digest: yhmaM9QzHxzKnfa2pnujB4qZBzs=
+SHA1-Digest: RXgAWHstsjo/3MJzVXdtLjdZhXo=
 
 Name: res/drawable-hdpi-v4/sym_bkeyboard_search.png
 SHA1-Digest: YqIxtu1LJhBRHgRUAx9mBAF/pAU=
 
 Name: assets/www/keymapview.html
-SHA1-Digest: p1I75jOUiy4IWvEF/1iTyqkhI50=
+SHA1-Digest: l9FelQJTT3Smogi+ZT8hKSxcf+s=
 
 Name: res/xml/method.xml
 SHA1-Digest: mR7XlaO58516Dhm95W2FVUV7Bkk=
@@ -224,7 +224,7 @@ Name: res/drawable-mdpi-v4/sym_keyboard_space.png
 SHA1-Digest: gvx3/+9VhFWkrQRccXDze5zWxpI=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_light_normal_iphone.9.png
-SHA1-Digest: GIAq1ZRn6yGEdhXgzUNH1x1X11M=
+SHA1-Digest: M3C5XYDm9BKAiNgAz5Wid9cy4e8=
 
 Name: res/drawable-xxhdpi-v4/btn_keyboard_key_popup_selected_lxx_dark.
  9.png
@@ -270,7 +270,7 @@ Name: res/xml/kbd_symbols_shift_ascii.xml
 SHA1-Digest: nO5t5Oozv3hSEQtk+dBsDsdR1d4=
 
 Name: res/drawable-hdpi-v4/ridmik_off.9.png
-SHA1-Digest: 39V9EuVcj1z5Iw3ay0EA93KQsYs=
+SHA1-Digest: mqywZiKSPiIunzDlYgukwi6DM/Q=
 
 Name: res/drawable-hdpi-v4/ok_cancel.png
 SHA1-Digest: SHBQioakUrt4NtkV9f2nLcmsHFg=
@@ -306,7 +306,7 @@ Name: res/drawable-hdpi-v4/keyboard_key_feedback_background.9.png
 SHA1-Digest: rvGNlyc+JiJPOfI5PgjjVO4IX9w=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_dark_pressed_iphone.9.png
-SHA1-Digest: bIm3+J5HZ49mitxy03mpcdhK3F8=
+SHA1-Digest: A5KCdXC3CUbS2kUBQWwrXWtfVnc=
 
 Name: res/drawable-mdpi-v4/keyboard_popup_panel_background_holo.9.png
 SHA1-Digest: PClm4Bt9yWAsdn4oQG1oQsRubgI=
@@ -351,7 +351,7 @@ Name: lib/armeabi-v7a/libjni_ridmik.so
 SHA1-Digest: U+/PqUAv8y+RrHohOB0wLv3fSiM=
 
 Name: res/drawable-hdpi-v4/ridmik_normal.9.png
-SHA1-Digest: BTgvwx52sOYVJqBqivq17tXsH40=
+SHA1-Digest: 2aZlclutLjJI9n/7hklBNE6fb14=
 
 Name: res/drawable-mdpi-v4/keyboard_background_holo.9.png
 SHA1-Digest: ISoGIwMesYkBHBN+ylWZV0zYyxg=
@@ -430,7 +430,7 @@ Name: res/drawable-mdpi-v4/btn_keyboard_key_light_popup_normal.9.png
 SHA1-Digest: 3K221MsIRbJMSACdamRkmGa1wbA=
 
 Name: res/drawable-xxhdpi-v4/enter.9.png
-SHA1-Digest: wyS9ICWo85jd0QpUy+iLkC+5Vi4=
+SHA1-Digest: tQhCK6xLEETZo21LuWw8w80uNrA=
 
 Name: res/drawable-hdpi-v4/smiley_buttton.png
 SHA1-Digest: w6RNMYUQlRsUX5mCK/Jg/5+Np/U=
@@ -476,7 +476,7 @@ Name: res/drawable-mdpi-v4/sym_keyboard_feedback_shift.png
 SHA1-Digest: g8cnTa+NtRRv8DTRBQEO3uj0PIA=
 
 Name: res/layout/about.xml
-SHA1-Digest: 3ziRQfbnCGiduiThxmKfRU4c7TY=
+SHA1-Digest: urGsdP+856KWayn0nhikNLsWzFs=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_fulltrans_pressed.9.png
 SHA1-Digest: aQtdWdu3PvPOsRleFZzoyMd90pk=
@@ -539,7 +539,7 @@ Name: res/drawable-mdpi-v4/sym_bkeyboard_numstar.png
 SHA1-Digest: 7Wtk0UZh5ymo1XD/yye4cdCE+z4=
 
 Name: res/xml/prefs.xml
-SHA1-Digest: iVoOc0ozjnRf0qMGEm0C56dErU4=
+SHA1-Digest: +k7UwjghQJn/vWuv3+By0Vd1/4U=
 
 Name: res/drawable-hdpi-v4/ridmik_logo.png
 SHA1-Digest: uX7YhWxzkVk+xUFVkopCz87MK7w=
@@ -625,7 +625,7 @@ Name: res/drawable-hdpi-v4/keyboard_dark_background.9.png
 SHA1-Digest: aGWArPynsRe0eY+U51MNOwd6u3M=
 
 Name: res/drawable-xxhdpi-v4/sym_key_return_loli.9.png
-SHA1-Digest: C/fIRpGDXGOnywPLWGJWG67ZMpQ=
+SHA1-Digest: dhSmaXiOC8b0ApzdVMHonEOl2dc=
 
 Name: res/drawable-hdpi-v4/ic_mic_dialog.png
 SHA1-Digest: p6mjGp8QhnzH4pnVlenmZh41mCk=
@@ -672,7 +672,7 @@ SHA1-Digest: YyrV1aWlMzsmiIOVlbVffgrmYEo=
 
 Name: res/drawable-xxhdpi-v4/btn_keyboard_key_normal_off_lxx_dark.9.pn
  g
-SHA1-Digest: 63VwP1KpVD4pAA9vOXeECSoaDao=
+SHA1-Digest: CZFwWsk43VaGstiQqNYIFOV3t8E=
 
 Name: res/drawable-mdpi-v4/btn_keyboard_key_light_normal.9.png
 SHA1-Digest: iIS0zVYUVbmFs7xsCeM1eIX1Xz8=
@@ -718,7 +718,7 @@ Name: res/drawable-hdpi-v4/sym_keyboard_num1.png
 SHA1-Digest: V1Wcl43XLqsSgvRAu46uugLdSG8=
 
 Name: AndroidManifest.xml
-SHA1-Digest: 2auKHcgSqm1iYa6zxBsIfj7o8z8=
+SHA1-Digest: XkDJFZeFGonqD5nNhL4KyiZgHJ8=
 
 Name: res/anim/key_preview_fadeout.xml
 SHA1-Digest: bWwyvOaP2mDZ8e0S3W9+vYB4Re0=
@@ -742,7 +742,7 @@ Name: res/drawable-hdpi-v4/sym_keyboard_feedback_return.png
 SHA1-Digest: byHTWF+XW9mmsYvlWs3Stc+xb3Q=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_dark_normal_iphone.9.png
-SHA1-Digest: 31dswFjh1k9wQdcTlr1QP4WpG8U=
+SHA1-Digest: D5IBlu1LxTyqe0Y83U/I/Pg9pWI=
 
 Name: res/drawable/keyboard_background_lxx_dark.9.png
 SHA1-Digest: J6ew6VvIkHGx4C2/s8iAbiHcMUY=
@@ -912,7 +912,7 @@ Name: res/xml/kbd_national.xml
 SHA1-Digest: cx/5iO3xH4KyJ3j/UE/zJRTEQYI=
 
 Name: res/drawable-hdpi-v4/ridmik_func.9.png
-SHA1-Digest: 0e99FTBOUlIXFNcfdLlJTIGhTB8=
+SHA1-Digest: HX0NCKSkLSirLfppzpr22Y/zfy4=
 
 Name: res/drawable-xhdpi-v4/happy1.png
 SHA1-Digest: kEKyVKYdYPui9WxRqEWGmGess0w=
@@ -981,7 +981,7 @@ Name: res/drawable-hdpi-v4/working.png
 SHA1-Digest: XaU24bl7d6QqG7vF8XYgRuLbPMI=
 
 Name: res/drawable-hdpi-v4/ridmik_on.9.png
-SHA1-Digest: n5gKAxiqqZqEIsLD4R+soBx/EXY=
+SHA1-Digest: j5L19IBPDfTblxnxFccnKCrS/xo=
 
 Name: assets/fonts/Ridmik.ttf
 SHA1-Digest: vOV7L7DXLlwRsERX5PbRRbDk1iA=
@@ -1021,7 +1021,7 @@ Name: res/drawable-mdpi-v4/sym_bkeyboard_done.png
 SHA1-Digest: v+qUurvg9Rfg4NuezaSDfErONI0=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_light_pressed_iphone.9.png
-SHA1-Digest: TTXlR5LGv5y69U4iLF5wJnsT6cA=
+SHA1-Digest: 90imdZZwAJLXT46RWRGuoQJ2e3g=
 
 Name: res/xml-sw600dp-land-v13/kbd_national.xml
 SHA1-Digest: T1XWgVBZFI7Zjlj7WfjhhaEMuZg=
@@ -1071,7 +1071,7 @@ Name: res/drawable-mdpi-v4/caution.png
 SHA1-Digest: rozy8HXpjLnNnayRPC3ZDb/hMzk=
 
 Name: assets/www/phonetictyping.html
-SHA1-Digest: jENQmWxfsNnBrQN6S3vYYPCaxTI=
+SHA1-Digest: 5fUD7sxlmKPqCGwA5khTNJn7XjQ=
 
 Name: res/xml/kbd_unijoy.xml
 SHA1-Digest: Ocr/MIRrXiAfRW220gQKy12EldQ=
@@ -1137,7 +1137,7 @@ Name: res/drawable-xxhdpi-v4/sym_keyboard_shift_lxx_dark.png
 SHA1-Digest: +gKBd9ZEhNoPdFQKvjOyt7kd01w=
 
 Name: res/drawable-xxhdpi-v4/btn_keyboard_key_normal_on_lxx_dark.9.png
-SHA1-Digest: pPNuxBkJYt0uGmZSbc7pDUc2Sys=
+SHA1-Digest: d8J8U3vukPoMbQ03WWOll9w5WYo=
 
 Name: res/drawable-mdpi-v4/speak_now_level5.png
 SHA1-Digest: IPtRjVhfSraJpG4fH8FbC/6Emts=
@@ -1227,7 +1227,7 @@ Name: res/drawable-hdpi-v4/btn_keyboard_key_dark_pressed.9.png
 SHA1-Digest: aHj+FYOdTeZKHruAM9ptrSR8iOU=
 
 Name: assets/www/keymapviewformain.html
-SHA1-Digest: p1I75jOUiy4IWvEF/1iTyqkhI50=
+SHA1-Digest: l9FelQJTT3Smogi+ZT8hKSxcf+s=
 
 Name: res/drawable-mdpi-v4/sym_bkeyboard_space.png
 SHA1-Digest: E7KuiFPS/l1aKqcAJfjjY0vMYyE=
@@ -1325,5 +1325,5 @@ Name: res/drawable-mdpi-v4/ic_subtype_keyboard.png
 SHA1-Digest: ZJvd8PS8tPxbkoDKV/5V/LcJwn4=
 
 Name: classes.dex
-SHA1-Digest: GGcV0VInWbaG3VdG25Q7hS+Szp4=
+SHA1-Digest: RKYndjzKDHH08Usgs0nous6dbB0=
 

@@ -56,6 +56,7 @@
     .line 136
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/VoiceInput$1;->this$0:Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mRecognitionView:Lnet/hasnath/android/ridmik/voice/RecognitionView;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$1(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
     move-result-object v0
@@ -65,6 +66,7 @@
     .line 137
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/VoiceInput$1;->this$0:Lnet/hasnath/android/ridmik/voice/VoiceInput;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/VoiceInput;->mUiListener:Lnet/hasnath/android/ridmik/voice/VoiceInput$UiListener;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/VoiceInput;->access$2(Lnet/hasnath/android/ridmik/voice/VoiceInput;)Lnet/hasnath/android/ridmik/voice/VoiceInput$UiListener;
 
     move-result-object v0

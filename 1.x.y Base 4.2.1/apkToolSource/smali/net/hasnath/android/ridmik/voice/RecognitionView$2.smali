@@ -44,6 +44,7 @@
     .line 146
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/RecognitionView$2;->this$0:Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/RecognitionView;->mState:Lnet/hasnath/android/ridmik/voice/RecognitionView$State;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$0(Lnet/hasnath/android/ridmik/voice/RecognitionView;)Lnet/hasnath/android/ridmik/voice/RecognitionView$State;
 
     move-result-object v0
@@ -55,6 +56,7 @@
     .line 147
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/RecognitionView$2;->this$0:Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/RecognitionView;->mProgress:Landroid/view/View;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$10(Lnet/hasnath/android/ridmik/voice/RecognitionView;)Landroid/view/View;
 
     move-result-object v0
@@ -68,6 +70,7 @@
     .line 148
     iget-object v0, p0, Lnet/hasnath/android/ridmik/voice/RecognitionView$2;->this$0:Lnet/hasnath/android/ridmik/voice/RecognitionView;
 
+    # getter for: Lnet/hasnath/android/ridmik/voice/RecognitionView;->mProgress:Landroid/view/View;
     invoke-static {v0}, Lnet/hasnath/android/ridmik/voice/RecognitionView;->access$10(Lnet/hasnath/android/ridmik/voice/RecognitionView;)Landroid/view/View;
 
     move-result-object v0

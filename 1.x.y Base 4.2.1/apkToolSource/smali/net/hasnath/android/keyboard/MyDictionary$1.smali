@@ -44,6 +44,7 @@
 
     .prologue
     .line 121
+    # getter for: Lnet/hasnath/android/keyboard/MyDictionary;->sOpenHelper:Lnet/hasnath/android/keyboard/MyDictionary$DatabaseHelper;
     invoke-static {}, Lnet/hasnath/android/keyboard/MyDictionary;->access$0()Lnet/hasnath/android/keyboard/MyDictionary$DatabaseHelper;
 
     move-result-object v1

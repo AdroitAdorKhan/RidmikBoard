@@ -665,12 +665,12 @@ public class ViewPager extends ViewGroup {
 
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int i;
+        LayoutParams lp;
         setMeasuredDimension(getDefaultSize(0, widthMeasureSpec), getDefaultSize(0, heightMeasureSpec));
         int childWidthSize = (getMeasuredWidth() - getPaddingLeft()) - getPaddingRight();
         int childHeightSize = (getMeasuredHeight() - getPaddingTop()) - getPaddingBottom();
         int size = getChildCount();
         for (i = 0; i < size; i++) {
-            LayoutParams lp;
             View child = getChildAt(i);
             if (child.getVisibility() != 8) {
                 lp = (LayoutParams) child.getLayoutParams();

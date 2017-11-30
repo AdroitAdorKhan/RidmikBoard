@@ -42,9 +42,9 @@ public class AutoCorrect {
     }
 
     private final void loadDictionary(Context context, int[] resId) {
-        int i;
         InputStream[] is = null;
         int total = 0;
+        int i;
         try {
             is = new InputStream[resId.length];
             for (i = 0; i < resId.length; i++) {

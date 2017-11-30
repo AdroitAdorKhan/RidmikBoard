@@ -223,17 +223,17 @@
     <string name="voice_mode_off">2</string>
     <string name="auto_submit">Auto submit after voice</string>
     <string name="auto_submit_summary">Automatically press enter when searching or going to the next field.</string>
-    <string name="open_the_keyboard"><font size="17"><b>"Open the keyboard
-"</b></font><font size="3">"
+    <string name="open_the_keyboard"><b><font size="17">"Open the keyboard
+"</font></b><font size="3">"
 "</font>Touch any text field.</string>
-    <string name="close_the_keyboard"><font size="17"><b>"Close the keyboard
-"</b></font><font size="3">"
+    <string name="close_the_keyboard"><b><font size="17">"Close the keyboard
+"</font></b><font size="3">"
 "</font>Press the Back key.</string>
-    <string name="touch_and_hold"><font size="17"><b>"Touch &amp; hold a key for options
-"</b></font><font size="3">"
+    <string name="touch_and_hold"><b><font size="17">"Touch &amp; hold a key for options
+"</font></b><font size="3">"
 "</font>Access punctuation and accents.</string>
-    <string name="keyboard_settings"><font size="17"><b>"Keyboard settings
-"</b></font><font size="3">"
+    <string name="keyboard_settings"><b><font size="17">"Keyboard settings
+"</font></b><font size="3">"
 "</font>Touch &amp; hold the <b>?123</b> key.</string>
     <string name="popular_domain_0">.com</string>
     <string name="popular_domain_1">.net</string>

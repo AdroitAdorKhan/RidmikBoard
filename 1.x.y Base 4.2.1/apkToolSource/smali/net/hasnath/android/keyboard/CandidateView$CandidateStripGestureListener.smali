@@ -66,6 +66,7 @@
     .line 155
     iget-object v0, p0, Lnet/hasnath/android/keyboard/CandidateView$CandidateStripGestureListener;->this$0:Lnet/hasnath/android/keyboard/CandidateView;
 
+    # getter for: Lnet/hasnath/android/keyboard/CandidateView;->mSuggestions:Ljava/util/ArrayList;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/CandidateView;->access$0(Lnet/hasnath/android/keyboard/CandidateView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -93,6 +94,7 @@
 
     iget-object v1, p0, Lnet/hasnath/android/keyboard/CandidateView$CandidateStripGestureListener;->this$0:Lnet/hasnath/android/keyboard/CandidateView;
 
+    # getter for: Lnet/hasnath/android/keyboard/CandidateView;->mWordWidth:[I
     invoke-static {v1}, Lnet/hasnath/android/keyboard/CandidateView;->access$1(Lnet/hasnath/android/keyboard/CandidateView;)[I
 
     move-result-object v1
@@ -120,6 +122,7 @@
     .line 157
     iget-object v0, p0, Lnet/hasnath/android/keyboard/CandidateView$CandidateStripGestureListener;->this$0:Lnet/hasnath/android/keyboard/CandidateView;
 
+    # invokes: Lnet/hasnath/android/keyboard/CandidateView;->longPressFirstWord()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/CandidateView;->access$2(Lnet/hasnath/android/keyboard/CandidateView;)V
 
     .line 160
@@ -140,6 +143,7 @@
     .line 171
     iget-object v5, p0, Lnet/hasnath/android/keyboard/CandidateView$CandidateStripGestureListener;->this$0:Lnet/hasnath/android/keyboard/CandidateView;
 
+    # getter for: Lnet/hasnath/android/keyboard/CandidateView;->mScrolled:Z
     invoke-static {v5}, Lnet/hasnath/android/keyboard/CandidateView;->access$4(Lnet/hasnath/android/keyboard/CandidateView;)Z
 
     move-result v5
@@ -251,6 +255,7 @@
 
     iget-object v6, p0, Lnet/hasnath/android/keyboard/CandidateView$CandidateStripGestureListener;->this$0:Lnet/hasnath/android/keyboard/CandidateView;
 
+    # getter for: Lnet/hasnath/android/keyboard/CandidateView;->mTotalWidth:I
     invoke-static {v6}, Lnet/hasnath/android/keyboard/CandidateView;->access$5(Lnet/hasnath/android/keyboard/CandidateView;)I
 
     move-result v6
@@ -282,6 +287,7 @@
     .line 194
     iget-object v5, p0, Lnet/hasnath/android/keyboard/CandidateView$CandidateStripGestureListener;->this$0:Lnet/hasnath/android/keyboard/CandidateView;
 
+    # invokes: Lnet/hasnath/android/keyboard/CandidateView;->hidePreview()V
     invoke-static {v5}, Lnet/hasnath/android/keyboard/CandidateView;->access$7(Lnet/hasnath/android/keyboard/CandidateView;)V
 
     .line 195

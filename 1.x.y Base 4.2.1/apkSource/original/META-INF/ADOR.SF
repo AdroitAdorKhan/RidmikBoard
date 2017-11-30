@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 SHA1-Digest-Manifest-Main-Attributes: RsH+8ih8p183k9Q4ABmKLR6jIHo=
-SHA1-Digest-Manifest: KGcCo0bFVt3hq/GyFOOntdtbbf4=
+SHA1-Digest-Manifest: WLAss30nH1SIo/82qmbAxSzsFaQ=
 Created-By: 1.8.0_121 (Oracle Corporation)
 
 Name: res/drawable-hdpi-v4/keyboard_suggest_strip_divider.png
@@ -67,7 +67,7 @@ Name: res/drawable-xxhdpi-v4/sym_keyboard_space_lxx_dark.png
 SHA1-Digest: 8ncN9z4AzfkL8ZI+reydocjcdVg=
 
 Name: res/xml/popup_punctuation.xml
-SHA1-Digest: osrz6DQnOXbWq5EpXYURhTDycg0=
+SHA1-Digest: VP44fGCsSeJsHm/7Dn8GlJZNj2c=
 
 Name: res/xml/kbd_unijoy_shift.xml
 SHA1-Digest: xLb/0wBNIdF6u7E2ry7EfVoqFvo=
@@ -91,7 +91,7 @@ Name: res/layout/candidates_lolipop.xml
 SHA1-Digest: WNEFpTy8TPLymqQ2z3TkBp4a+Jo=
 
 Name: resources.arsc
-SHA1-Digest: dODL9bVYUX53yIUlTbWRcrIaXhg=
+SHA1-Digest: Ps3UtT6hP+WJfuuJ88hBPYq+Pb4=
 
 Name: res/drawable-hdpi-v4/sym_keyboard_numalt.png
 SHA1-Digest: eYl6yATwNYDXGxtcBTyd+2QBTdw=
@@ -180,7 +180,7 @@ Name: res/drawable-hdpi-v4/sym_bkeyboard_search.png
 SHA1-Digest: LzLkDbqsAgJgwRqVi44rrq1C7So=
 
 Name: assets/www/keymapview.html
-SHA1-Digest: bPpy7lFHQ9OSE5IR1WzlHXGeMwA=
+SHA1-Digest: vGZU6a+lOm4cDkn71Ts3U5AnAi8=
 
 Name: res/xml/method.xml
 SHA1-Digest: Lyi15RS4cGn+bfTfWHDgUNbQ+ME=
@@ -478,7 +478,7 @@ Name: res/drawable-mdpi-v4/sym_keyboard_feedback_shift.png
 SHA1-Digest: cxVoSDi2R+RgmEkHgimPW/VzP0w=
 
 Name: res/layout/about.xml
-SHA1-Digest: AsL5MPMIpiS7CfvDV+l1cYNt5pI=
+SHA1-Digest: HX1sV0wkFlejgN/wS6byQsCMAig=
 
 Name: res/drawable-hdpi-v4/btn_keyboard_key_fulltrans_pressed.9.png
 SHA1-Digest: 5819PDxQHPvWzrTY7Q9THsvCz/E=
@@ -541,7 +541,7 @@ Name: res/drawable-mdpi-v4/sym_bkeyboard_numstar.png
 SHA1-Digest: 4i7JKl0FaNOQtcJ4mfaMsK/vQ/Q=
 
 Name: res/xml/prefs.xml
-SHA1-Digest: zelK0YrjIk6JXZsJINi62vy5fa0=
+SHA1-Digest: Tys7uxkF5bDYTvCNmA2CHjMUDBM=
 
 Name: res/drawable-hdpi-v4/ridmik_logo.png
 SHA1-Digest: URD7g3yXDvao/tr5/yxaHZ64z0M=
@@ -720,7 +720,7 @@ Name: res/drawable-hdpi-v4/sym_keyboard_num1.png
 SHA1-Digest: r+4i/6spefi3XCjGFSJ+/6wvK4c=
 
 Name: AndroidManifest.xml
-SHA1-Digest: 7V0sL6MtLmlE6puGtP3hGz96DKY=
+SHA1-Digest: UqXGcS3J+ezazrGQhFzSFllYoTQ=
 
 Name: res/anim/key_preview_fadeout.xml
 SHA1-Digest: D3TZ7ltWue0EeOiitNfQLOgRF/4=
@@ -1073,7 +1073,7 @@ Name: res/drawable-mdpi-v4/caution.png
 SHA1-Digest: MSR8Tyvfio4iO4unv/zm1QYcoBQ=
 
 Name: assets/www/phonetictyping.html
-SHA1-Digest: GtKBzeaUajIVQ5+mOEvpKLI6RbE=
+SHA1-Digest: P2+mZ6IBdm46vsMan3X6j0NUSnw=
 
 Name: res/xml/kbd_unijoy.xml
 SHA1-Digest: o5AJXP2QPA3HkHUgC78ZuU0xi0E=
@@ -1229,7 +1229,7 @@ Name: res/drawable-hdpi-v4/btn_keyboard_key_dark_pressed.9.png
 SHA1-Digest: 8XejufFjQWPNEPF16BCj1DqKIYE=
 
 Name: assets/www/keymapviewformain.html
-SHA1-Digest: ODuna+qj2UF77SPV5UUdehsBEuQ=
+SHA1-Digest: Hf+eGCznmAoCz/KvtPgZvFWkRiA=
 
 Name: res/drawable-mdpi-v4/sym_bkeyboard_space.png
 SHA1-Digest: sUjKsU2/+fXcKfSvTjMY/M94n+Q=
