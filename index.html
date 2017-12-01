@@ -7,7 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+.menubg {
+  background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
@@ -19,20 +26,101 @@ body, html {height: 100%}
 </style>
 <body>
 
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block bgimg w3-animate-left" style="display:none" id="mySidebar">
+<button onclick="w3_close()" class="w3-bar-item w3-teal w3-button w3-large w3-hover-red ">Close &times;</button>
+
+
+<a href="#" onclick="document.getElementById('menu').style.display='block'" class="w3-bar-item w3-button w3-indigo"><font size="5">web</font></a>  
+
+
+<a href="#" onclick="myFunction('Demo1')" class="w3-button w3-block w3-indigo w3-left-align"><font size="5">downloads</font></a>
+<div id="Demo1" class="w3-hide">
+    <a href="#" onclick="document.getElementById('download').style.display='block'" class="w3-bar-item w3-button w3-purple"><font size="5">Ridmik Board</font><sup> REGULAR</sup></a><a href="#" onclick="document.getElementById('download').style.display='block'" class="w3-bar-item w3-button w3-deep-purple"><font size="5">Ridmik Board</font><sup> PLUS</sup></a><a href="#" onclick="document.getElementById('download').style.display='block'" class="w3-bar-item w3-button w3-purple"><font size="5">Ridmik Board</font><sup> LEGACY</sup></a>
+</div>
+ 
+ 
+<a href="#" onclick="document.getElementById('contact').style.display='block'" class="w3-bar-item w3-button w3-indigo"><font size="5">contact</font></a>
+ 
+ 
+<a href="#" onclick="document.getElementById('support').style.display='block'" class="w3-bar-item w3-button w3-indigo"><font size="5">support <font color="#FF0000">❤</font></font></a>
+
+
+<a href="#" onclick="document.getElementById('help').style.display='block'" class="w3-bar-item w3-button w3-indigo"><font size="5">help</font></a>
+
+<p class="w3-bar-item w3-indigo w3-hover-blue w3-animate-bottom"><font size="5">Quick <font color="yellow">Notify</font></font> <br/>WEB Updated: 01 Dec</p>
+<div class="w3-panel w3-amber w3-display-container w3-animate-bottom">
+<span onclick="this.parentElement.style.display='none'" class="w3-button w3-amber  w3-display-topright w3-hover-red"><font size="5">&times;</font></span>
+<p><font size="4">Latest 1.7.0 Plus Update Available!</font></p>
+</div>
+<div class="w3-panel w3-amber w3-display-container w3-animate-bottom">
+<span onclick="this.parentElement.style.display='none'" class="w3-button w3-amber  w3-display-topright w3-hover-red"><font size="5">&times;</font></span>
+<p><font size="4">Share</font>
+<font size="5" color="indigo"><b><a href="http://www.facebook.com/sharer.php?u=https://adroitadorkhan.github.io/RidmikBoard/&p[title]=Ridmik Board - The Bangla Keyboard" target="_blank" class="fa fa-facebook"></a>
+<a href="http://twitter.com/share?text=Ridmik Board - The Bangla Keyboard&url=https://adroitadorkhan.github.io/RidmikBoard/" target="_blank" class="fa fa-twitter">
+</a>
+<a href="https://plus.google.com/share?url=https://adroitadorkhan.github.io/RidmikBoard/" target="_blank" class="fa fa-google-plus w3-animate-right"></a></b></font>
+
+</p>
+</div>
+</div>
+
+<!-- Page Content -->
+<div>
+  
+  
+ 
+  </div>
+
+
+
+
+
+<script>
+
+
+/*--ACCORDATION--*/
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace("w3-black", "w3-red");
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace("w3-red", "w3-black");
+    }
+}
+/*--ACCORDATION--*/
+
+/*--MENU--*/
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+/*--MENU--*/
+
+
+</script>
 <div class="bgimg w3-display-container w3-text-white">
   <div class="w3-display-middle">
-  <p><font size="7"><b>Ridmik Board</b></font>
+  <p><font size="6"><b>Ridmik Board</b></font>
     <br/><font size="3"><b>The Bangla Keyboard!</b></font>
     <br/>A MOD of original Ridmik Keyboard.</p>
     <p><button onclick="document.getElementById('download').style.display='block'" class="w3-button w3-amber">DOWNLOADS<sup>+</sup></button><a href="https://github.com/AdroitAdorKhan/RidmikBoard/blob/master/Changes.md" class="w3-button w3-purple" target="_blank">CHANGES</a></p>
   </div>
   <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-indigo">WEB</button><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-purple">contact</button><button onclick="document.getElementById('support').style.display='block'" class="w3-button w3-deep-purple">support <font color="#FF0000">❤</font></button><button onclick="document.getElementById('help').style.display='block'" class="w3-button w3-amber">help</button>
-  </div></p>
+  <br/>
+  <button class="w3-button w3-indigo w3-xlarge w3-animate-left" onclick="w3_open()">☰</button><button onclick="document.getElementById('app').style.display='block'" class="w3-button w3-indigo w3-hover-blue w3-animate-right">APP</button>
+  </div>
   <div class="w3-display-bottomleft w3-container">
-    <p class="w3-large">Special thanks to 
-    <br/><b>Superb বা'ল Boys</b> and Testers!</p>
-    <p><a href="https://fb.com/adroitadorkhan" target="_blank">Ador</a> <font color="#FF0000">❤</font> </p>
+    <p class="w3-large w3-animate-left">Special thanks to 
+    <br/><b>Superb Heroes Cave</b> and Testers!</p>
+    <p class="w3-animate-right"><a href="https://fb.com/adroitadorkhan" target="_blank">Ador</a> <font color="#FF0000">❤</font> </p>
   </div>
 </div>
 
@@ -40,7 +128,7 @@ body, html {height: 100%}
 <div id="menu" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-indigo w3-display-container">
-      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
       <h1>Repository</h1>
     </div>
     <div class="w3-container">
@@ -70,13 +158,6 @@ body, html {height: 100%}
         <p>Ridmik Board is basically a mod of <a href="https://play.google.com/store/apps/details?id=ridmik.keyboard" target="_blank">Ridmik Bangla Keyboard</a>. Ridmik Keyboard is a Bengali and English Keyboard for Android 2.3+. Original app wasn't being updated for long time. So I thought about bringing few changes, and make it more user friendly. That's all. Enjoy!</p>
     </div>
     <div class="w3-container w3-indigo">
-      <h1>App Information</h1>
-    </div>
-    <div class="w3-container">
-        <p>Latest Version: <b>1.7.0</b> Ridmik Base: <b>4.2.1</b>
-        <br/>Size: <b>2.71MB</b> Last Updated: <b>29 November, 2017</b></p>
-    </div>
-    <div class="w3-container w3-indigo">
       <h1>Share 😊 </h1>
     </div>
     <div class="w3-container">
@@ -104,7 +185,7 @@ body, html {height: 100%}
 <div id="contact" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-indigo">
-      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
       <h1>Contact</h1>
     </div>
     <div class="w3-container">
@@ -126,7 +207,7 @@ body, html {height: 100%}
 <div id="support" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-indigo">
-      <span onclick="document.getElementById('support').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <span onclick="document.getElementById('support').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
       <h1>Support <font color="#FF0000">❤</font></h1>
     </div>
     <div class="w3-container">
@@ -142,11 +223,79 @@ body, html {height: 100%}
   </div>
 </div>
 
+<!-- App Modal -->
+<div id="app" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-indigo">
+      <span onclick="document.getElementById('app').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
+      <h1><font color="#5290F5"><b>Ridmik Board</b></font></h1>
+    </div>
+    <div class="w3-container">
+    <p>Ridmik Board is basically a mod of <a href="https://play.google.com/store/apps/details?id=ridmik.keyboard" target="_blank">Ridmik Bangla Keyboard</a>. Ridmik Keyboard is a Bengali and English Keyboard for Android 2.3+. Original app wasn't being updated for long time. So I thought about bringing few changes, and make it more user friendly. That's all. Enjoy!</p>
+    </div>
+    
+    <div class="w3-container w3-indigo">
+      <h1>Screenies</h1>
+    </div>
+    <div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://cdn.rawgit.com/AdroitAdorKhan/RidmikBoard/0980cb18/appGraphics/PROMO/Untitled-1.png" style="height:100%; width:100%; max-width: 100%; max-height: 800px;">
+  <img class="mySlides" src="https://cdn.rawgit.com/AdroitAdorKhan/RidmikBoard/0980cb18/appGraphics/PROMO/Untitled-2.png" style="height:100%; width:100%; max-width: 100%; max-height: 800px;">
+  <img class="mySlides" src="https://cdn.rawgit.com/AdroitAdorKhan/RidmikBoard/0980cb18/appGraphics/PROMO/Untitled-3.png" style="height:100%; width:100%; max-width: 100%; max-height: 800px;">
+  <img class="mySlides" src="https://cdn.rawgit.com/AdroitAdorKhan/RidmikBoard/0980cb18/appGraphics/PROMO/Untitled-4.png" style="height:100%; width:100%; max-width: 100%; max-height: 800px;">
+
+  <button class="w3-button w3-indigo w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-indigo w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+/*--SLIDESHOW--*/
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+/*--SLIDESHOW--*/
+</script>
+<div class="w3-container w3-indigo">
+      <h1>App Information</h1>
+    </div>
+    <div class="w3-container">
+        <p>Latest Version: <b>1.7.0</b> Ridmik Base: <b>4.2.1/3.1.8</b>
+        <br/>Size: <b>2.71MB</b> Last Updated: <b>29 November, 2017</b></p>
+    </div>
+    <div class="w3-container w3-indigo">
+      <h1>App Versions</h1>
+    </div>
+    <div class="w3-container">
+        <p>Ridmik Board Regular and Plus Base: <b>4.2.1 Ridmik</b> 
+        <br/>Ridmik Board Legacy Base: <b>3.1.8 Ridmik</b></p>
+    </div>
+ 
+</div>    
+</div>
+  </div>
+</div>
+
+
+
+
 <!-- Help Modal -->
 <div id="help" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-indigo w3-display-container">
-      <span onclick="document.getElementById('help').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <span onclick="document.getElementById('help').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
       <h2>আপনাদের জিজ্ঞাসা ও তার উত্তর <br/><font size="3">সকল সমস্যা ও তার সমাধান এখানে সময়ের সাথে আপডেট করা হবে!</font></h2>
       <p><font color="#ADFF2F"><b>মডটা মূলত আমি নিজের ব্যবহারের জন্যই বিল্ড করেছিলাম। কিন্তু নানানভাবে ছড়িয়ে পরায় অনেকেই এখন এর ব্যাপারে জানেন। তাই জানিয়ে রাখতে চাই যে, আমিও মানুষ, আমিও ভুলের ঊর্ধে না! :) আর সবার চাহিদা আমার একার পক্ষে পূরণ করা সম্ভব হবে না, এটাই স্বাভাবিক। আশা করি সবাই ব্যাপারটা বুঝবেন! :)</b></font></p>
 
@@ -156,8 +305,14 @@ body, html {height: 100%}
         <p><b>প্রশ্নঃ</b> Ridmik Board আসলে কি?
         <br/><b>উত্তরঃ</b> রিদ্মিক কিবোর্ডের মডিফাইড ভার্সন, নতুন লোগো ও নতুন নামে।
         <br/>
-        <br/><b>প্রশ্নঃ</b> এটা কি ডিভাইসের জন্য ক্ষতিকর কোন কোড বহন করে, বা পারমিশন চাইবে?
-        <br/><b>উত্তরঃ</b> না। একদমই না! কি প্রেস করার সময় ভাইব্রেশনের জন্য ভাইব্রেশন পারমিশন এবং আপডেট চেক করার জন্য ইন্টারনেট পারমিশন চাইবে।
+        <br/><b>প্রশ্নঃ</b> এটা কি ডিভাইসের জন্য ক্ষতিকর কোন কোড বহন করে, বা পারমিশন চাইবে? কি কি রমিশন ব্যবহার করা হয়েছে?
+        <br/><b>উত্তরঃ</b> না। একদমই না! ভাইব্রেশন কি এর জন্য ভাইব্রেট,আপডেট চেক করার জন্য ইন্টারনেট, ভয়েস টাইপিঙ্গের জন্য মাইক্রোফোন আর কন্টাক্ট সাজেশনের জন্য কন্টাক্ট পারমিশন।
+  <br/><ul class="w3-ul">
+    <li class="w3-hover-red">android.permission.VIBRATE</li>
+    <li class="w3-hover-green">android.permission.INTERNET</li>
+    <li class="w3-hover-blue">android.permission.RECORD_AUDIO</li>
+    <li class="w3-hover-orange">android.permission.READ_CONTACTS</li>
+  </ul>
         <br/>
         <br/><b>প্রশ্নঃ</b> তাইলে অ্যাপ ইন্সটল করার সময় দেখায় কেন এটা আমার তথ্য চুরি করবে?
         <br/><b>উত্তরঃ</b> এটা শুধুমাত্র Android সিকিউরিটির একটা অ্যালার্ট! প্লেস্টোরের অন্য কিবোর্ড নামিয়ে আলাদা ভাবে ইন্সটল করে দেখুন, একই অ্যালার্ট দিবে। এছাড়া তারপরও সন্দেহ থাকলে, Github'এ সব কোড আর কি কি পারমিশন অ্যাপ ইউজ করছে, তা দেয়া আছে। একটু কষ্ট করে দেখে নিলেই হয়! :)
@@ -204,26 +359,50 @@ body, html {height: 100%}
 <div id="download" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-indigo w3-display-container">
-      <span onclick="document.getElementById('download').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <span onclick="document.getElementById('download').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
       <h2><font color="#5290F5">DOWNLOADS</font><sup>+</sup></h2>
-      <p>নানান সমস্যা ও বাগের জন্য, আমি দুটো সংষ্করণ বের করেছি। এখানে বিস্তারিত দেয়া আছে, আপনার পছন্দানুযায়ী ডাউনলোড করে নিন! :) </p>
+      <p>নানান সমস্যা ও বাগের জন্য, আমি তিনটে সংষ্করণ বের করেছি। এখানে বিস্তারিত দেয়া আছে, আপনার পছন্দানুযায়ী ডাউনলোড করে নিন! :) </p>
     </div>
     <div class="w3-container">
-    <p><font size="4"><b>Ridmik Board<sup>+</sup> </b></font>
+    <p><b>Ridmik Board<sup> Regular</sup></b>
+    <br/><b>Base:</b> 4.2.1 <b>Size:</b> 2.71MB
+    <br/><b>Ridmik Board<sup> Plus</sup></b>
+    <br/><b>Base:</b> 4.2.1 <b>Size:</b> 2.71MB
+    <br/><b>Ridmik Board<sup> Legacy</sup></b>
+    <br/><b>Base:</b> 3.1.8 <b>Size:</b> 2.71MB</p> 
+    </div>
+    <div class="w3-container w3-indigo">
+      <h1>4.2.1 Base</h1>
+    </div>
+    <div class="w3-container">
+    <p><font size="4"><b>Ridmik Board<sup><font size='1'> PLUS</font></sup> </b></font>
     <br/><font size="2" color="#d10047">- ১১৮ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি।
     <br/>- ইমোজি স্লাইডের অ্যানিমেশনের কোন ফিক্স নেই!
     <br/>- সব ডিভাইসে সব ইমোজি নাও সাপোর্ট করতে পারে।
-    <br/>- ইমোজিগুলো ৩৬০ dpi এর কম ডিভাইসে ছোট দেখাবে।
+    <br/>- ইমোজিগুলো ৩৬০ dpi এর কম রেজোলিউশনে ছোট দেখাবে।
     <br/>- বাগ থাকবেই!</font>
     <br/><b>কেবল উপরের সব সুবিধা ও অসুবিধা মেনে নিয়ে থাকলেই, ডাউনলোড করুন:</b>
     <br/><a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases/latest" class="w3-button w3-blue" target="_blank">DOWNLOAD <b>RIDMIK BOARD<sup>+</sup></b></a></p>
-    <p><font size="4"><b><sup><font size="1" color="#FF0000">*শীঘ্রই আসছে* </font></sup>Ridmik Board <sup><font size="1">REGULAR</font></sup></b></font>
+    <p><font size="4"><sup><font size="1" color="#FF0000">*শীঘ্রই আসছে* </font></sup><b>Ridmik Board <sup><font size="1">REGULAR</font></sup></b></font>
     <br/><font size="2" color="#d10047">- ৭৮ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি।
-    <br/>- সব ডিভাইসে সব ইমোজি নাও সাপোর্ট করতে পারে।
+    <br/>- সব ডিভাইসে ভয়েস রিকগনেশন সাপোর্ট নাও করতে পারে।
     <br/>- ইমোজিগুলো ছোট দেখাবে না।
     <br/>- বাগ থাকবেই!</font>
     <br/><b>কেবল উপরের সব সুবিধা ও অসুবিধা মেনে নিয়ে থাকলেই, ডাউনলোড করুন:</b>
     <br/><a class="w3-button w3-red" target="_blank"><b>NOT AVAILABLE YET</b></a></p></div>
+    <div class="w3-container w3-indigo">
+      <h1>3.1.8 Base</h1>
+    </div>
+    <div class="w3-container">
+    <p><font size="4"><sup><font size="1" color="#FF0000">*শীঘ্রই আসছে* </font></sup><b>Ridmik Board<sup><font size="1"> LEGACY</font></sup> </b></font>
+    <br/><font size="2" color="#d10047">- ৭৮ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি।
+    <br/>- স্মাইলির বদলে আপডেটেড ইমোজি।
+    <br/>- সব ডিভাইসে ভয়েস রিকগনেশন সাপোর্ট নাও করতে পারে।
+    <br/>- ইমোজিগুলো ছোট দেখাবে না।
+    <br/>- বাগ থাকবেই!</font>
+    <br/><b>কেবল উপরের সব সুবিধা ও অসুবিধা মেনে নিয়ে থাকলেই, ডাউনলোড করুন:</b>
+    <br/><a class="w3-button w3-red" target="_blank"><b>NOT AVAILABLE YET</b></a></p>
+    </div>
     <div class="w3-container w3-indigo">
       <h2>ALL RELEASES</h2>
     </div>
