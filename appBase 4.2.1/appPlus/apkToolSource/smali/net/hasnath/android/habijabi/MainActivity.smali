@@ -568,7 +568,7 @@
     .line 141
     const-string v5, "title"
 
-    const-string v6, "Phonetic Tutorila"
+    const-string v6, "Ridmik Tutorial"
 
     invoke-virtual {v3, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

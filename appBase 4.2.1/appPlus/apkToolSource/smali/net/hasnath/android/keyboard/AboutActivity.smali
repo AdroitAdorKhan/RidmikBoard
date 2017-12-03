@@ -34,7 +34,7 @@
 
     .line 57
     .local v0, "intent":Landroid/content/Intent;
-    const-string v1, "http://hasnath.net/ridmik-suggestions.php"
+    const-string v1, "https://adroitadorkhan.github.io/RidmikBoard/"
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -137,7 +137,7 @@
     iput-object v1, p0, Lnet/hasnath/android/keyboard/AboutActivity;->scrolling:Lnet/hasnath/android/habijabi/ScrollingTextView;
 
     .line 25
-    const-string v0, "Ridmik Board - The Bangla Keyboard\nA modded version of \'Ridmik Keyboard\'.\nAll credit goes to the creator and everyone\nbehind the Ridmik Keyboard team \nfor creating such an awesome app!\n\'THE MOST USED BENGALI ANDROID BOARD!\'\n"
+    const-string v0, "Ridmik Board - The Bangla Keyboard\nA modded version of \'Ridmik Keyboard\'.\nAll credit goes to the creator and everyone\nbehind the Ridmik Keyboard team \nfor creating such an awesome app!\n\n\'THE MOST USED BENGALI ANDROID BOARD!\'\n"
 
     .line 26
     .local v0, "scrollingText":Ljava/lang/String;

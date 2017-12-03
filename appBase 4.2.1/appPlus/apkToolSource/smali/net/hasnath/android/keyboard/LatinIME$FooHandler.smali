@@ -68,7 +68,6 @@
     :pswitch_0
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$FooHandler;->outer:Lnet/hasnath/android/keyboard/LatinIME;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinIME;->updateSuggestions()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$2(Lnet/hasnath/android/keyboard/LatinIME;)V
 
     goto :goto_0
@@ -77,7 +76,6 @@
     :pswitch_1
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$FooHandler;->outer:Lnet/hasnath/android/keyboard/LatinIME;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinIME;->setOldSuggestions()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$3(Lnet/hasnath/android/keyboard/LatinIME;)V
 
     goto :goto_0
@@ -86,7 +84,6 @@
     :pswitch_2
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$FooHandler;->outer:Lnet/hasnath/android/keyboard/LatinIME;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIME;->mTutorial:Lnet/hasnath/android/keyboard/Tutorial;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$4(Lnet/hasnath/android/keyboard/LatinIME;)Lnet/hasnath/android/keyboard/Tutorial;
 
     move-result-object v0
@@ -132,7 +129,6 @@
     .line 414
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$FooHandler;->outer:Lnet/hasnath/android/keyboard/LatinIME;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinIME;->mTutorial:Lnet/hasnath/android/keyboard/Tutorial;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$4(Lnet/hasnath/android/keyboard/LatinIME;)Lnet/hasnath/android/keyboard/Tutorial;
 
     move-result-object v0
@@ -173,7 +169,6 @@
     :pswitch_4
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinIME$FooHandler;->outer:Lnet/hasnath/android/keyboard/LatinIME;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinIME;->handleVoiceResults()V
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinIME;->access$6(Lnet/hasnath/android/keyboard/LatinIME;)V
 
     goto :goto_0

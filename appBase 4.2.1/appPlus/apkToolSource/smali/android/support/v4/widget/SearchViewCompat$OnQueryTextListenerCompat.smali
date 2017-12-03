@@ -27,7 +27,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 124
-    # getter for: Landroid/support/v4/widget/SearchViewCompat;->IMPL:Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
     invoke-static {}, Landroid/support/v4/widget/SearchViewCompat;->access$000()Landroid/support/v4/widget/SearchViewCompat$SearchViewCompatImpl;
 
     move-result-object v0

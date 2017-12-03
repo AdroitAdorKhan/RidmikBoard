@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap" xmlns:android="http://schemas.android.com/apk/res-auto">
+<Keyboard android:keyWidth="10.000000%p" android:keyHeight="43.35dip" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap" xmlns:android="http://schemas.android.com/apk/res-auto">
     <Row android:rowEdgeFlags="top">
         <Key android:codes="128512" />
         <Key android:codes="128513" />
@@ -37,7 +37,7 @@
         <Key android:codes="128558" />
     </Row>
     <Row>
-        <Key android:keyWidth="10.1799965%p" android:codes="@integer/smiley_keyboard3" android:keyEdgeFlags="left" android:isModifier="true" android:keyIcon="@drawable/happy3" />
+        <Key android:keyEdgeFlags="left" android:codes="128562"  />
         <Key android:codes="128565" />
         <Key android:codes="128563" />
         <Key android:codes="128560" />
@@ -46,13 +46,13 @@
         <Key android:codes="128557" />
         <Key android:codes="128531" />
         <Key android:codes="128580" />
-        <Key android:keyWidth="10.000002%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
+        <Key android:keyEdgeFlags="right" android:codes="129296" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
-        <Key android:keyWidth="20.000004%p" android:codes="@integer/main_keyboard" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key" />
-        <Key android:codes="@integer/smiley_keyboard2" android:isModifier="true" android:keyIcon="@drawable/happy2" />
-        <Key android:keyWidth="39.999996%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
-        <Key android:popupKeyboard="@xml/popup_punctuation" android:isModifier="true" android:keyLabel="." android:keyIcon="@drawable/hint_popup" />
-        <Key android:keyWidth="20.000004%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_keyboard_return" />
+        <Key android:keyWidth="18.000000%p" android:keyHeight="53.0dip"  android:codes="@integer/main_keyboard" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key" />
+        <Key android:keyWidth="15.0%p" android:keyHeight="53.0dip"  android:codes="@integer/smiley_keyboard2" android:isModifier="true" android:keyIcon="@drawable/happy3" />
+        <Key android:keyWidth="34.0%p" android:keyHeight="53.0dip"  android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:keyWidth="15.0%p" android:keyHeight="53.0dip"  android:codes="@integer/smiley_keyboard3" android:isModifier="true" android:keyIcon="@drawable/happy1" />
+		<Key android:keyWidth="18.000000%p" android:keyHeight="53.0dip"  android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
     </Row>
 </Keyboard>

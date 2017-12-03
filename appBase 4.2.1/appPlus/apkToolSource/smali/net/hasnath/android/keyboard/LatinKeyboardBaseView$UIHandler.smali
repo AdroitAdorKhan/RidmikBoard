@@ -144,7 +144,6 @@
     .line 327
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$UIHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mPreviewPopup:Landroid/widget/PopupWindow;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Landroid/widget/PopupWindow;
 
     move-result-object v0
@@ -193,7 +192,6 @@
 
     check-cast v1, Lnet/hasnath/android/keyboard/PointerTracker;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->showKey(ILnet/hasnath/android/keyboard/PointerTracker;)V
     invoke-static {v2, v3, v1}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$0(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;ILnet/hasnath/android/keyboard/PointerTracker;)V
 
     goto :goto_0
@@ -202,7 +200,6 @@
     :pswitch_1
     iget-object v1, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$UIHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mPreviewPopup:Landroid/widget/PopupWindow;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Landroid/widget/PopupWindow;
 
     move-result-object v1
@@ -226,7 +223,6 @@
     .line 300
     iget-object v1, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$UIHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mKeyRepeatInterval:I
     invoke-static {v1}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$2(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)I
 
     move-result v1
@@ -252,7 +248,6 @@
 
     iget v2, p1, Landroid/os/Message;->arg1:I
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->openPopupIfRequired(ILnet/hasnath/android/keyboard/PointerTracker;)Z
     invoke-static {v1, v2, v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$3(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;ILnet/hasnath/android/keyboard/PointerTracker;)Z
 
     goto :goto_0
@@ -292,7 +287,6 @@
     .line 313
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$UIHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mPreviewPopup:Landroid/widget/PopupWindow;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$1(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Landroid/widget/PopupWindow;
 
     move-result-object v0
@@ -305,7 +299,6 @@
 
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$UIHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # getter for: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->mPreviewText:Landroid/widget/TextView;
     invoke-static {v0}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$4(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -319,7 +312,6 @@
     .line 315
     iget-object v0, p0, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView$UIHandler;->outer:Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;
 
-    # invokes: Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->showKey(ILnet/hasnath/android/keyboard/PointerTracker;)V
     invoke-static {v0, p3, p4}, Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;->access$0(Lnet/hasnath/android/keyboard/LatinKeyboardBaseView;ILnet/hasnath/android/keyboard/PointerTracker;)V
 
     .line 320

@@ -44,7 +44,6 @@
     .line 701
     iget-object v1, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputView:Lnet/hasnath/android/keyboard/LatinKeyboardView;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
     move-result-object v1
@@ -54,7 +53,6 @@
     .line 702
     iget-object v1, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputView:Lnet/hasnath/android/keyboard/LatinKeyboardView;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
     move-result-object v1
@@ -74,7 +72,6 @@
     .line 704
     iget-object v1, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputView:Lnet/hasnath/android/keyboard/LatinKeyboardView;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
     move-result-object v1
@@ -87,7 +84,6 @@
 
     iget-object v2, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputView:Lnet/hasnath/android/keyboard/LatinKeyboardView;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
     move-result-object v2
@@ -98,14 +94,12 @@
     :cond_0
     iget-object v1, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputMethodService:Lnet/hasnath/android/keyboard/LatinIME;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$1(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinIME;
 
     move-result-object v1
 
     iget-object v2, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputView:Lnet/hasnath/android/keyboard/LatinKeyboardView;
     invoke-static {v2}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$0(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinKeyboardView;
 
     move-result-object v2
@@ -117,7 +111,6 @@
     :cond_1
     iget-object v1, p0, Lnet/hasnath/android/keyboard/KeyboardSwitcher$1;->this$0:Lnet/hasnath/android/keyboard/KeyboardSwitcher;
 
-    # getter for: Lnet/hasnath/android/keyboard/KeyboardSwitcher;->mInputMethodService:Lnet/hasnath/android/keyboard/LatinIME;
     invoke-static {v1}, Lnet/hasnath/android/keyboard/KeyboardSwitcher;->access$1(Lnet/hasnath/android/keyboard/KeyboardSwitcher;)Lnet/hasnath/android/keyboard/LatinIME;
 
     move-result-object v1

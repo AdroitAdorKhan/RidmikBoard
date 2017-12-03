@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ridmik.board.ador" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ridmik.board.ador" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+<uses-permission android:name="android.permission.VIBRATE"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.READ_CONTACTS"/>
     <application android:backupAgent="net.hasnath.android.keyboard.LatinIMEBackupAgent" android:icon="@drawable/ridmikand" android:killAfterRestore="false" android:label="@string/english_ime_name" android:theme="@style/AppBaseTheme">
         <service android:label="@string/english_ime_name" android:name="net.hasnath.android.keyboard.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>

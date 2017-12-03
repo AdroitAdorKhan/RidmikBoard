@@ -39,11 +39,12 @@
         <Key android:keyWidth="12.5%p" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
-        <Key android:keyWidth="22.000004%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key" />
-        <Key android:codes="@integer/key_f1" android:isModifier="true" />
-        <Key android:keyWidth="39.999996%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
-        <Key android:codes="@integer/unicode_dari" android:popupKeyboard="@xml/popup_punctuation" android:isModifier="true" android:keyLabel="@string/bangla_dari" android:keyIcon="@drawable/hint_popup" />
-        <Key android:keyWidth="22.000004%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_keyboard_return" />
+        <Key android:keyWidth="15.000000%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key" />
+        <Key android:keyWidth="10.000000%p" android:codes="@integer/key_f1" android:isModifier="true" />
+		<Key android:keyWidth="10.0%p" android:codes="@integer/smiley_keyboard1" android:isModifier="true" android:keyIcon="@drawable/happy2" />
+        <Key android:keyWidth="35.0%p" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:keyWidth="10.000000%p" android:codes="@integer/unicode_dari" android:popupKeyboard="@xml/popup_punctuation" android:isModifier="true" android:keyLabel="@string/bangla_dari" android:keyIcon="@drawable/hint_popup" />
+        <Key android:keyWidth="20.0000000%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_keyboard_return" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_url">
         <Key android:keyWidth="22.000004%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_symbol_key" />

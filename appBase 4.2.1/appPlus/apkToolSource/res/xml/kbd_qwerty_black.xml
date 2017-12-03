@@ -42,11 +42,11 @@
         <Key android:keyWidth="20.000004%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_bkeyboard_return" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_url">
-        <Key android:keyWidth="20.000004%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:keyLabel="@string/label_symbol_key" />
-        <Key android:codes="@integer/key_f1" />
-        <Key android:keyWidth="39.999996%p" android:codes="@integer/key_space" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_bkeyboard_space" />
-        <Key android:popupKeyboard="@xml/popup_punctuation" android:keyLabel="." android:keyIcon="@drawable/hint_popup" />
-        <Key android:keyWidth="20.000004%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_bkeyboard_return" />
+        <Key android:keyWidth="15.000000%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:keyLabel="@string/label_symbol_key" />
+        <Key android:keyWidth="10.000000%p" android:codes="@integer/key_f1" />
+        <Key android:keyWidth="35.000%p" android:codes="@integer/key_space" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_bkeyboard_space" />
+        <Key android:keyWidth="10.000000%p" android:popupKeyboard="@xml/popup_punctuation" android:keyLabel="." android:keyIcon="@drawable/hint_popup" />
+        <Key android:keyWidth="20.000000%p" android:codes="@integer/key_return" android:keyEdgeFlags="right" android:iconPreview="@drawable/sym_keyboard_feedback_return" android:keyIcon="@drawable/sym_bkeyboard_return" />
     </Row>
     <Row android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_email">
         <Key android:keyWidth="20.000004%p" android:codes="@integer/key_symbol" android:keyEdgeFlags="left" android:keyLabel="@string/label_symbol_key" />

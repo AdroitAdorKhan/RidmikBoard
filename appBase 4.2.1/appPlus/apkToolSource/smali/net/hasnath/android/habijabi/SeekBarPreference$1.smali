@@ -54,35 +54,30 @@
 
     iget-object v1, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # getter for: Lnet/hasnath/android/habijabi/SeekBarPreference;->mMin:F
     invoke-static {v1}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$1(Lnet/hasnath/android/habijabi/SeekBarPreference;)F
 
     move-result v2
 
     iget-object v1, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # getter for: Lnet/hasnath/android/habijabi/SeekBarPreference;->mMax:F
     invoke-static {v1}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$2(Lnet/hasnath/android/habijabi/SeekBarPreference;)F
 
     move-result v3
 
     iget-object v1, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # getter for: Lnet/hasnath/android/habijabi/SeekBarPreference;->mStep:F
     invoke-static {v1}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$3(Lnet/hasnath/android/habijabi/SeekBarPreference;)F
 
     move-result v4
 
     iget-object v1, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # getter for: Lnet/hasnath/android/habijabi/SeekBarPreference;->mLogScale:Z
     invoke-static {v1}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$4(Lnet/hasnath/android/habijabi/SeekBarPreference;)Z
 
     move-result v5
 
     move v1, p2
 
-    # invokes: Lnet/hasnath/android/habijabi/SeekBarPreference;->percentToSteppedVal(IFFFZ)F
     invoke-static/range {v0 .. v5}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$5(Lnet/hasnath/android/habijabi/SeekBarPreference;IFFFZ)F
 
     move-result v0
@@ -96,14 +91,12 @@
     .line 153
     iget-object v0, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # getter for: Lnet/hasnath/android/habijabi/SeekBarPreference;->mSeek:Landroid/widget/SeekBar;
     invoke-static {v0}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$6(Lnet/hasnath/android/habijabi/SeekBarPreference;)Landroid/widget/SeekBar;
 
     move-result-object v0
 
     iget-object v1, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # invokes: Lnet/hasnath/android/habijabi/SeekBarPreference;->getProgressVal()I
     invoke-static {v1}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$7(Lnet/hasnath/android/habijabi/SeekBarPreference;)I
 
     move-result v1
@@ -114,7 +107,6 @@
     :cond_0
     iget-object v0, p0, Lnet/hasnath/android/habijabi/SeekBarPreference$1;->this$0:Lnet/hasnath/android/habijabi/SeekBarPreference;
 
-    # invokes: Lnet/hasnath/android/habijabi/SeekBarPreference;->showVal()V
     invoke-static {v0}, Lnet/hasnath/android/habijabi/SeekBarPreference;->access$8(Lnet/hasnath/android/habijabi/SeekBarPreference;)V
 
     .line 156

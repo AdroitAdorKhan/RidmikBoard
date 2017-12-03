@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap" xmlns:android="http://schemas.android.com/apk/res-auto">
     <Row android:rowEdgeFlags="top">
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="¹½⅓¼⅛১" android:keyEdgeFlags="left" android:keyLabel="\ 1" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="²⅔২" android:keyLabel="\ 2" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="³¾⅜৩" android:keyLabel="\ 3" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⁴৪" android:keyLabel="\ 4" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⅝৫" android:keyLabel="\ 5" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="৬" android:keyLabel="\ 6" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⅞৭" android:keyLabel="\ 7" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="৮" android:keyLabel="\ 8" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="৯" android:keyLabel="\ 9" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ⁿ∅০" android:keyEdgeFlags="right" android:keyLabel="\ 0" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="¹½⅓¼⅛১" android:keyEdgeFlags="left" android:keyLabel="1" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="²⅔২" android:keyLabel="2" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="³¾⅜৩" android:keyLabel="3" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⁴৪" android:keyLabel="4" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⅝৫" android:keyLabel="5" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="৬" android:keyLabel="6" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="⅞৭" android:keyLabel="7" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="৮" android:keyLabel="8" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="৯" android:keyLabel="9" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ⁿ∅০" android:keyEdgeFlags="right" android:keyLabel="0" />
     </Row>
     <Row>
         <Key android:keyEdgeFlags="left" android:keyLabel="\@" />
