@@ -1,6 +1,6 @@
 **v1.7.5 - Stable**
 
--**[FIX]** Emoji Size is being Fixed!!! :D
+-**[FIX]** Emoji Size is being Fixed, with NEW LAYOUT, and few were added! :D
 
 -**[NEW]** New Layout! Emoji is now accessible right from keyboard front layout!
 
@@ -16,4 +16,4 @@
 
 -**[FIX]** Typos. (No BLANK EMOJI FIX IN THIS BUILD!!!)
 
-//*THIS WAS A SCHEDULED MAINTENANCE BUILD FROM THE REPO. STAY TUNED FOR BIG RELEASE SOON!*//
+//*THIS WAS A SCHEDULED MAINTENANCE BUILD FROM THE REPO. STAY TUNED FOR THE BIG RELEASE SOON!*//
