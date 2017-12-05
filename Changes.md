@@ -1,7 +1,18 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
 # CHANGES
-# LATEST | BUILD #14 | UPDATED 29 November, 2017
+# LATEST | BUILD #16 | UPDATED 03 December, 2017
+
+v. 1.7.5 - Stable
+
+- [FIX] Emoji Size is being Fixed, with NEW LAYOUT, and few were added! 
+- [NEW] New Layout! Emoji is now accessible right from keyboard front layout!
+- [UPDATED] Now long press '. (Full Stop)' or '। (দাড়ি)' to get access to new Instant Smileys! Which has full 2 rows of smileys now!
+- [UPDATED] WebView Main Updated. Now loads much quicker!
+- [UPDATED] Keymap Updated, with HTML & CSS Table layout.
+- [UPDATED] Voice Support. Now supports Nougat out of the box! (All you have to do is give permission to the app!)
+- [UPDATED] Codes; to support new changes without any issue.
+- [FIX] Typos. (No BLANK EMOJI FIX IN THIS BUILD!!!) 
 
 v. 1.7.0 - Stable
 
