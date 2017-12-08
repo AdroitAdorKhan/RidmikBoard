@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_height">47.5dip</dimen>
+    <dimen name="key_bottom_gap">3.7999878dip</dimen>
+    <dimen name="popup_key_height">51.299988dip</dimen>
+    <dimen name="keyboard_bottom_padding">0.0in</dimen>
+    <dimen name="candidate_strip_height">38.0dip</dimen>
+    <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
+    <dimen name="spacebar_vertical_correction">2.0dip</dimen>
+    <dimen name="mini_keyboard_slide_allowance">0.459in</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-0.26999998in</dimen>
+</resources>
