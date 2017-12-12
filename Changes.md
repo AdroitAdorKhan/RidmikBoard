@@ -3,7 +3,7 @@ A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAd
 # CHANGES
 # LATEST | BUILD #20 | UPDATED 08 December, 2017
 
-v. 1.7.5 - Stable (MERGED CHANGELOG!)
+v. 1.8.5 - Stable (MERGED CHANGELOG!)
 
 - [UPDATED] Emoji Size, Blank Emoji, and almost all Emoji related issues have been fixed!
 - [NEW] 150 Emojis working flawlessly on each and every device! :D
