@@ -15,7 +15,7 @@
     <Row>
         <Key android:keyEdgeFlags="left" android:keyLabel="\@" />
         <Key android:keyLabel="\#" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="£ó₹৳" android:keyLabel="$" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="£ó৳" android:keyLabel="$" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:keyLabel="%" />
         <Key android:keyLabel="&amp;" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="★" android:keyLabel="*" />
