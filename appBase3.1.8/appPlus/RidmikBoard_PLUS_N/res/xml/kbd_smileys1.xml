@@ -13,28 +13,28 @@
         <Key android:keyOutputText="😏" android:keyLabel="😏" />
     </Row>
 	<Row>
-        <Key android:keyOutputText=":((" android:keyLabel=":((" />
-        <Key android:keyOutputText="*_*" android:keyLabel="*_*" />
-        <Key android:keyOutputText=":'(" android:keyLabel=":'(" />
-        <Key android:keyOutputText="\\m/" android:keyLabel="\\m/" />
-        <Key android:keyOutputText=":3" android:keyLabel=":3" />
-        <Key android:keyOutputText="T^T" android:keyLabel="T^T" />
-        <Key android:keyOutputText="=))" android:keyLabel="=))" />
-        <Key android:keyOutputText=":|" android:keyLabel=":|" />
-        <Key android:keyOutputText=":-X" android:keyLabel=":X" />
-        <Key android:keyOutputText="X(" android:keyLabel="X(" />
+        <Key android:keyOutputText="😍" android:keyLabel="😍" />
+        <Key android:keyOutputText="😘" android:keyLabel="😘" />
+        <Key android:keyOutputText="😗" android:keyLabel="😗" />
+        <Key android:keyOutputText="😚" android:keyLabel="😚" />
+        <Key android:keyOutputText="😜" android:keyLabel="😜" />
+        <Key android:keyOutputText="😛" android:keyLabel="😛" />
+        <Key android:keyOutputText="😝" android:keyLabel="😝" />
+        <Key android:keyOutputText="😌" android:keyLabel="😌" />
+        <Key android:keyOutputText="😎" android:keyLabel="😎" />
+        <Key android:keyOutputText="🙌" android:keyLabel="🙌" />
     </Row>
     <Row>
-        <Key android:keyOutputText=":((" android:keyLabel=":((" />
-        <Key android:keyOutputText="*_*" android:keyLabel="*_*" />
-        <Key android:keyOutputText=":'(" android:keyLabel=":'(" />
-        <Key android:keyOutputText="\\m/" android:keyLabel="\\m/" />
-        <Key android:keyOutputText=":3" android:keyLabel=":3" />
-        <Key android:keyOutputText="T^T" android:keyLabel="T^T" />
-        <Key android:keyOutputText="=))" android:keyLabel="=))" />
-        <Key android:keyOutputText=":|" android:keyLabel=":|" />
-        <Key android:keyOutputText=":-X" android:keyLabel=":X" />
-        <Key android:keyOutputText="X(" android:keyLabel="X(" />
+        <Key android:keyOutputText="😒" android:keyLabel="😒" />
+        <Key android:keyOutputText="😞" android:keyLabel="😞" />
+        <Key android:keyOutputText="😔" android:keyLabel="😔" />
+        <Key android:keyOutputText="😟" android:keyLabel="😟" />
+        <Key android:keyOutputText="😕" android:keyLabel="😕" />
+        <Key android:keyOutputText="😣" android:keyLabel="😣" />
+        <Key android:keyOutputText="😫" android:keyLabel="😫" />
+        <Key android:keyOutputText="😩" android:keyLabel="😩" />
+        <Key android:keyOutputText="😤" android:keyLabel="😤" />
+        <Key android:keyOutputText="😠" android:keyLabel="😠" />
     </Row>
     <Row>
         <Key android:keyOutputText=":((" android:keyLabel=":((" />
