@@ -7,7 +7,7 @@
         <Key android:keyOutputText=":'(" android:keyLabel=":'(" />
         <Key android:keyOutputText="=_=" android:keyLabel="=_=" />
         <Key android:keyOutputText="=|" android:keyLabel="=|" />
-		<Key android:keyOutputText="!" android:keyLabel="!" />
+		<Key android:keyOutputText=":/" android:keyLabel=":/" />
         <Key android:keyOutputText=":[" android:keyLabel=":[" />
         <Key android:keyOutputText=":|" android:keyLabel=":|" />
         <Key android:keyEdgeFlags="right" android:keyOutputText="o.O" android:keyLabel="o.O" />
@@ -19,9 +19,9 @@
         <Key android:keyOutputText=":*" android:keyLabel=":*" />
         <Key android:keyOutputText="O:)" android:keyLabel="O:)" />
         <Key android:keyOutputText=":P" android:keyLabel=":P" />
-		<Key android:keyOutputText="\?" android:keyLabel="\?" />
+		<Key android:keyOutputText="!" android:keyLabel="!" />
+        <Key android:keyOutputText="\?" android:keyLabel="\?" />
         <Key android:keyOutputText=":v" android:keyLabel=":v" />
-        <Key android:keyOutputText=":3" android:keyLabel=":3" />
-        <Key android:keyEdgeFlags="right" android:keyOutputText=":D" android:keyLabel=":D" />
+        <Key android:keyEdgeFlags="right" android:keyOutputText=":3" android:keyLabel=":3" />
     </Row>
 </Keyboard>

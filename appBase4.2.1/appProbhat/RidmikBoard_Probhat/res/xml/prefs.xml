@@ -13,7 +13,7 @@
     <CheckBoxPreference android:persistent="true" android:title="@string/sound_on_keypress" android:key="sound_on" />
     <net.hasnath.android.keyboard.DialogSeekBarPreference android:title="Keypress volume" android:key="keypress_volume" android:dependency="sound_on" android:defaultValue="30" min="0" max="90" step="1" />
     <CheckBoxPreference android:persistent="true" android:title="@string/popup_on_keypress" android:key="popup_on" android:defaultValue="@bool/default_popup_preview" />
-    <CheckBoxPreference android:persistent="false" android:title="@string/prefs_enable_recorrection" android:key="recorrection_enabled" android:summary="@string/prefs_enable_recorrection_summary" android:defaultValue="@bool/default_recorrection_enabled" />
+    <Preference android:title="2/3x Words FIXED!"  android:summary="No more 2/3x Words! Enjoy! :D" />
     <CheckBoxPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="true" />
     <CheckBoxPreference android:persistent="true" android:title="Learn words" android:key="learn_word_as_typing" android:summary="learn new words from your typing and predict from them afterwards" android:defaultValue="true" />
     <CheckBoxPreference android:persistent="true" android:title="@string/prefs_volume_cursor" android:key="volume_cursor" android:summary="@string/prefs_volume_cursor_summary" android:defaultValue="true" />
