@@ -1,0 +1,22 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: RidmikBoard_PLUS.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: ridmik.plus.ador
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '17'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '01'
+  versionName: 2.0.0
