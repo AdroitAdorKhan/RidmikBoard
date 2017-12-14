@@ -48,7 +48,7 @@ body, html {height: 100%}
 
 <a href="#" onclick="document.getElementById('help').style.display='block'" class="w3-bar-item w3-button w3-indigo"><font size="5">help</font></a>
 
-<p class="w3-bar-item w3-indigo w3-hover-blue w3-animate-bottom"><font size="5">Quick <font color="yellow">Notify</font></font> <br/>WEB Updated: 12 Dec</p>
+<p class="w3-bar-item w3-indigo w3-hover-blue w3-animate-bottom"><font size="5">Quick <font color="yellow">Notify</font></font> <br/>WEB Updated: 14 Dec</p>
 <div class="w3-panel w3-amber w3-display-container w3-animate-bottom">
 <span onclick="this.parentElement.style.display='none'" class="w3-button w3-amber  w3-display-topright w3-hover-red"><font size="5">&times;</font></span>
 <p><font size="4">Latest 1.8.5 Update Available!</font></p>
@@ -115,7 +115,7 @@ function w3_close() {
   <p><img src="https://3.bp.blogspot.com/-7MMhyP5B1Rc/WiKT027bsYI/AAAAAAAATWI/BGZ8yS_SafwmrVW9jx1ALcgpRqFxOfkkgCLcBGAs/s1600/rb_ico.png" class="w3-animate-opacity" style="width:38px;height:38px;"><font size="6"> <b>Ridmik Board</b></font>
     <br/><font size="3"><b>The Bangla Keyboard!</b></font>
     <br/>A MOD of original Ridmik Keyboard.</p>
-    <p><button onclick="document.getElementById('download').style.display='block'" class="w3-button w3-amber">DOWNLOADS<sup>+</sup></button><a href="https://github.com/AdroitAdorKhan/RidmikBoard/blob/master/Changes.md" class="w3-button w3-purple" target="_blank">CHANGES</a></p>
+    <p><button onclick="document.getElementById('download').style.display='block'" class="w3-button w3-amber">DOWNLOADS<sup>+</sup></button><button onclick="document.getElementById('changes').style.display='block'" class="w3-button w3-purple" target="_blank">CHANGES</button></p>
   </div>
   <div class="w3-display-topleft w3-container w3-xlarge">
   <br/>
@@ -140,13 +140,7 @@ function w3_close() {
       <h5><a href="https://sourceforge.net/projects/ridmikboard/" target="_blank"><b>SourceForge</b></a></h5>
       <h5><a href="https://forum.xda-developers.com/android/apps-games/app-ridmik-board-bangla-keyboard-t3709956" target="_blank"><b>XDA Project</b></a></h5>
     </div>
-    <div class="w3-container w3-indigo">
-      <h1>Sources</h1>
-    </div>
-    <div class="w3-container">
-      <h5><a href="https://github.com/AdroitAdorKhan/RidmikBoard/tree/master/apkSource" target="_blank"><b>ApkSource</b></a></h5>
-      <h5><a href="https://github.com/AdroitAdorKhan/RidmikBoard/tree/master/apkToolSource" target="_blank"><b>ApkToolSource</b></a></h5>
-    </div>
+    
     <div class="w3-container w3-indigo">
       <h1>Downloads</h1>
     </div>
@@ -224,6 +218,31 @@ function w3_close() {
     </div>
   </div>
 </div>
+
+
+<!-- Changes Modal -->
+<div id="changes" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-indigo">
+      <span onclick="document.getElementById('changes').style.display='none'" class="w3-button w3-display-topright w3-large w3-hover-red">x</span>
+      <h1>Changelog</h1>
+    </div>
+    <div class="w3-container">
+    <p>Latest Update Changes
+    <br/><iframe height="200px" width="100%" frameborder="no" src="https://cdn.rawgit.com/AdroitAdorKhan/RidmikBoard/87471342/Changes.md" name="iframe_a"></iframe>
+</p>
+</div>
+<div class="w3-container w3-indigo">
+      <h1>Latest Commits</h1>
+    </div>
+    <div class="w3-container">
+        <p>Check what's going on with Ridmik Board!
+        <br/><a href="https://github.com/AdroitAdorKhan/RidmikBoard/commits/master" class="w3-button w3-black" target="_blank">Github</a><a href="https://github.com/AdroitAdorKhan/RidmikBoard/commits/master.atom" class="w3-button w3-blue-grey" target="_blank">ATOM</a></p>
+    </div>
+
+  </div>
+</div>
+
 
 <!-- App Modal -->
 <div id="app" class="w3-modal">
@@ -404,7 +423,7 @@ function showDivs(n) {
       <h2><font color="#5290F5">DOWNLOADS</font><sup>+</sup></h2>
       <p>সবার চাহিদা অনুযায়ী আমি ২টো সংষ্করণ বের করেছি! একটি রিদ্মিক ৪.২.১ কে কেন্দ্র করে, আর অন্যটি ৩.১.৮! </p>
     </div>
-    <div class="w3-container">
+    <div class="w3-container w3-indigo">
     <p><b>Ridmik Board<sup> Regular</sup></b>
     <br/><b>Base:</b> 4.2.1 <b>Size:</b> 2.72MB
     <br/><b>Ridmik Board<sup> Plus</sup></b>
@@ -414,9 +433,11 @@ function showDivs(n) {
     <div class="w3-container w3-indigo">
       <h1>4.2.1 Base</h1>
     </div>
-    <div class="w3-container">
-    <p><font size="4"><b>Ridmik Board<sup><font size='1'> REGULAR</font></sup> </b></font>
-    <br/><font size="2">- ১৫০ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি!
+    <div class="w3-display-container">
+        <button onclick="myFunction('Demod1')" class="w3-button w3-block w3-left-align w3-purple"><font size="4"><b>Ridmik Board<sup><font size='1'> REGULAR</font></sup> </b></font></button>
+
+<div id="Demod1" class="w3-container w3-hide  w3-purple">
+  <p><font size="2">- ১৫০ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি!
     <br/>- নতুন থিম!
     <br/>- ইন্সট্যান্ট স্মাইলি!
     <br/>- প্রভাত/ইউনিজয় লেআউট!
@@ -424,31 +445,38 @@ function showDivs(n) {
     <br/>- রেগুলার বেসিস মেইন্টেনেন্স!
     <br/>- Android 2.3+ ডিভাইসের জন্য!</font>
     <br/>
-    <br/><span class="w3-tag w3-large w3-khaki">DOWNLOADs</span>
-    <br/><a href="https://www.androidfilehost.com/?w=files&flid=232560" class="w3-button w3-light-green" target="_blank">Android File Host</a><a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases/latest" class="w3-button w3-black" target="_blank">Github</a><a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases/latest" class="w3-button w3-blue-grey" target="_blank">SourceForge</a></p>
-    <p><font size="4"><b>Ridmik Board<sup><font size='1'> ORIGINAL</font></sup> </b></font>
-    <br/><font size="2">- ১৫০ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি!
+    <br/><font size="4"><b>DOWNLOADs</b></font>
+    <br/><a href="https://www.androidfilehost.com/?w=files&flid=232560" class="w3-button w3-light-green" target="_blank">Android File Host</a><a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases/latest" class="w3-button w3-black" target="_blank">Github</a><a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases/latest" class="w3-button w3-blue-grey" target="_blank">SourceForge</a>
+</div>
+
+<button onclick="myFunction('Demod2')" class="w3-button w3-block w3-left-align w3-lime"><font size="4"><b>Ridmik Board<sup><font size='1'> STOCK</font></sup> </b></font></button>
+
+<div id="Demod2" class="w3-container w3-hide  w3-lime">
+  <p><font size="2">- ১৫০ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি!
     <br/>- সম্পূর্ণ স্টক ফিচার্স!
     <br/>- কোন রিদ্মিক বোর্ড এক্সট্রা ফিচার বা বাগ ফিক্স নেই!</font>
     <br/>
-    <br/><span class="w3-tag w3-large w3-khaki">DOWNLOADs</span>
-    <br/><a href="https://forum.xda-developers.com/showpost.php?p=74819381&postcount=55" class="w3-button w3-orange" target="_blank">XDA</a></p>
-    </div>
+    <br/><font size="4"><b>DOWNLOADs</b></font>
+    <br/><a href="https://forum.xda-developers.com/showpost.php?p=74819381&postcount=55" class="w3-button w3-orange" target="_blank">XDA</a>
+        </div>
+
+    
     <div class="w3-container w3-indigo">
       <h1>3.1.8 Base</h1>
     </div>
-    <div class="w3-container">
-    <p><font size="4"><sup><font size="1" color="#FF0000">*শীঘ্রই আসছে* </font></sup><b>Ridmik Board<sup><font size="1"> Plus</font></sup> </b></font>
-    <br/><font size="2">- ১৫০ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি।
+    <button onclick="myFunction('Demod3')" class="w3-button w3-block w3-left-align w3-purple"><font size="4"><font size="4"><b>Ridmik Board<sup><font size="1"> Plus</font></sup> </b></font><sup><font size="1" color="#ffffff">*শীঘ্রই আসছে* </font></sup></button>
+
+<div id="Demod3" class="w3-container w3-hide  w3-purple">
+    <p><font size="2">- ১৫০ টি নতুন ও জনপ্রিয় বাছাইকৃত ইমোজি।
     <br/>- রেগুলার বেসিস মেইন্টেনেন্স!
-    <br/>- শুধুমাত্রা Android 7+ ডিভাইসের জন্য!</font>
+    <br/>- শুধুমাত্র Android 7+ ডিভাইসের জন্য!</font>
     <br/>
     <br/><a class="w3-button w3-red" target="_blank"><b>NOT AVAILABLE YET</b></a></p>
     </div>
     <div class="w3-container w3-indigo">
       <h2>ALL RELEASES</h2>
     </div>
-    <div class="w3-container">
+    <div class="w3-container w3-indigo">
     <p><font size="4"><b>You will find all Ridmik Board releases here:</b></font>
     <br/><a href="https://www.androidfilehost.com/?w=files&flid=232552" class="w3-button w3-light-green" target="_blank">Android File Host</a><a href="https://github.com/AdroitAdorKhan/RidmikBoard/releases" class="w3-button w3-black" target="_blank">Github</a></p>
     </div>
