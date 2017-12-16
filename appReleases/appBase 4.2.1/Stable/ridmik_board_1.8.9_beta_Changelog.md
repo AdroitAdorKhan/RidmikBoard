@@ -1,5 +1,7 @@
 **v1.8.9 - beta**
 
+-**[UPDATED]** Now supports Android SDK 27.
+
 -**[FIX]** Long Press Pop-Up Key Issue Now fixed forever! :D  
 
 -**[FIX]** Few Key Mistakes in Probhat Layout.
