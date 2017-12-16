@@ -27,7 +27,7 @@
     <Row>
         <Key android:keyWidth="14.999998%p" android:codes="@integer/key_shift" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:keyLabel="@string/label_alt_key" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="¡" android:keyLabel="!" />
-        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="“”«»˝" android:keyLabel="&quot;" />
+        <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="“”˝" android:keyLabel="&quot;" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="‘’" android:keyLabel="'" />
         <Key android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ঃ" android:keyLabel=":" />
         <Key android:keyLabel=";" />

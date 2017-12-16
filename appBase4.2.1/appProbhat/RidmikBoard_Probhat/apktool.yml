@@ -9,7 +9,7 @@ packageInfo:
   renameManifestPackage: null
 sdkInfo:
   minSdkVersion: '8'
-  targetSdkVersion: '26'
+  targetSdkVersion: '27'
 sharedLibrary: false
 unknownFiles: {}
 usesFramework:
@@ -18,5 +18,5 @@ usesFramework:
   tag: null
 version: 2.3.0
 versionInfo:
-  versionCode: '20'
-  versionName: 1.8.5
+  versionCode: '22'
+  versionName: 1.9.0
