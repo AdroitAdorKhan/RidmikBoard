@@ -14,6 +14,6 @@
 
 -**[FIX]** Few Bugs found on previous Stable Build.
 
--**[UPDATED]** Mystery Request; now directs you have to request on XDA! 
+-**[UPDATED]** Mystery Request; now directs you to XDA! 
 
 -**[UPDATED]** Codes. Numerous Numbers of codes were added and got deleted.
