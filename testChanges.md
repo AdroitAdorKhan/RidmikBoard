@@ -1,8 +1,3 @@
-## RidmikBoard
-A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
-
-# LATEST TEST CHANGES -
-
 **v1.8.9 - beta**
 
 -**[UPDATED]** Now supports Android SDK 27.
