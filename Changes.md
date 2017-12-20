@@ -1,9 +1,9 @@
 # RidmikBoard
 A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
 # CHANGES
-# LATEST | BUILD #22 | UPDATED 19 December, 2017
+# LATEST | BUILD #23 | UPDATED 20 December, 2017
 
-v. 1.9.0 - Stable  (MERGED CHANGELOG!)
+v. 1.9.1 - Stable  (MERGED CHANGELOG!)
 
  UNIFIED CHANGES - 
 - [FIX] Fatal ENTER Key Error fix for both Probhat and Arabic.
