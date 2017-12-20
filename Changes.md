@@ -3,7 +3,12 @@ A MOD of original Ridmik Bangla Keyboard. Download - https://github.com/AdroitAd
 # CHANGES
 # LATEST | BUILD #22 | UPDATED 19 December, 2017
 
- v. 1.9.0 - Stable  (MERGED CHANGELOG!)
+v. 1.9.0 - Stable  (MERGED CHANGELOG!)
+
+ UNIFIED CHANGES - 
+- [FIX] Fatal ENTER Key Error fix for both Probhat and Arabic.
+
+v. 1.9.0 - Stable  (MERGED CHANGELOG!)
 
  UNIFIED CHANGES - 
 - [UPDATED] Now supports Android SDK 27.
