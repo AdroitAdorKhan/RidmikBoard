@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="12.199998%p" android:keyHeight="28.0dip" android:horizontalGap="0.0px" android:verticalGap="0.0px" xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Row>
+        <Key android:keyEdgeFlags="right" android:keyOutputText="ٖ" android:keyLabel="ٖ" />
+        <Key android:keyOutputText="ٰ" android:keyLabel="ٰ" />
+        <Key android:keyOutputText="ٓ" android:keyLabel="ٓ" />
+        <Key android:keyOutputText="ِ" android:keyLabel="ِ" />
+        <Key android:keyOutputText="ُ" android:keyLabel="ُ" />
+        <Key android:keyOutputText="ـ" android:keyLabel="ـ" />
+        <Key android:keyOutputText="ٕ" android:keyLabel="ٕ" />
+        <Key android:keyEdgeFlags="left" android:keyOutputText="َ" android:keyLabel="َ" />
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="right" android:keyOutputText="ٔ" android:keyLabel="ٔ" />
+        <Key android:keyOutputText="ْ" android:keyLabel="ْ" />
+        <Key android:keyOutputText="ٍ" android:keyLabel="ٍ" />
+        <Key android:keyOutputText="ٌ" android:keyLabel="ٌ" />
+        <Key android:keyOutputText="ّ" android:keyLabel="ّ" />
+        <Key android:keyOutputText="ً" android:keyLabel="ً" />
+        <Key android:keyOutputText="؟" android:keyLabel="؟" />
+        <Key android:keyEdgeFlags="left" android:keyOutputText="!" android:keyLabel="!" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/keyboard_suggest_strip_lxx_light" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_strip_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <net.hasnath.android.keyboard.CandidateView android:id="@id/candidates" android:background="@color/trans" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/candidate_strip_fading_edge_length" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_strip_height" android:layout_weight="1.0" />
+</LinearLayout>
