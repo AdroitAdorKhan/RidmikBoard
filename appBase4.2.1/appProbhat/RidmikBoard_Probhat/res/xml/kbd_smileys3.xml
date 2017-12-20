@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard android:keyWidth="10.000000%p" android:keyHeight="36.6599dip" android:horizontalGap="0.0px" android:verticalGap="0.333dip" xmlns:android="http://schemas.android.com/apk/res-auto">
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="36.65988dip" android:horizontalGap="0.0px" android:verticalGap="0.33300006dip" xmlns:android="http://schemas.android.com/apk/res-auto">
     <Row android:rowEdgeFlags="top">
         <Key android:codes="127774" />
         <Key android:codes="127769" />
@@ -12,7 +12,7 @@
         <Key android:codes="127818" />
         <Key android:codes="127820" />
     </Row>
-	<Row>
+    <Row>
         <Key android:horizontalGap="0.0%p" android:codes="127817" android:keyEdgeFlags="left" />
         <Key android:codes="127827" />
         <Key android:codes="127814" />
@@ -49,7 +49,7 @@
         <Key android:codes="127906" android:keyEdgeFlags="right" />
     </Row>
     <Row>
-        <Key android:keyEdgeFlags="left"  android:codes="128286" /> 
+        <Key android:codes="128286" android:keyEdgeFlags="left" />
         <Key android:codes="127759" />
         <Key android:codes="9200" />
         <Key android:codes="128685" />
@@ -57,14 +57,14 @@
         <Key android:codes="128272" />
         <Key android:codes="128164" />
         <Key android:codes="10084" />
-		<Key android:codes="128152" />
-        <Key android:keyEdgeFlags="right" android:codes="128148" /> />
-    </Row>
-    <Row android:keyHeight="49.05dip" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
-        <Key android:keyWidth="18.000000%p" android:keyHeight="49.05dip"  android:codes="@integer/main_keyboard" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key" />
-        <Key android:keyWidth="15.0%p" android:keyHeight="49.05dip"  android:codes="@integer/smiley_keyboard1" android:isModifier="true" android:keyIcon="@drawable/happy2" />
-        <Key android:keyWidth="34.0%p" android:keyHeight="49.05dip"  android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
-        <Key android:keyWidth="15.0%p" android:keyHeight="49.05dip"  android:codes="@integer/smiley_keyboard2" android:isModifier="true" android:keyIcon="@drawable/happy3" />
-		<Key android:keyWidth="18.000000%p" android:keyHeight="49.05dip"  android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
+        <Key android:codes="128152" />
+        <Key android:codes="128148" android:keyEdgeFlags="right" /> />
+</Row>
+    <Row android:keyHeight="49.049988dip" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
+        <Key android:keyWidth="17.999994%p" android:keyHeight="49.049988dip" android:codes="@integer/main_keyboard" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key" />
+        <Key android:keyWidth="14.999998%p" android:keyHeight="49.049988dip" android:codes="@integer/smiley_keyboard1" android:isModifier="true" android:keyIcon="@drawable/happy2" />
+        <Key android:keyWidth="34.000004%p" android:keyHeight="49.049988dip" android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:keyWidth="14.999998%p" android:keyHeight="49.049988dip" android:codes="@integer/smiley_keyboard2" android:isModifier="true" android:keyIcon="@drawable/happy3" />
+        <Key android:keyWidth="17.999994%p" android:keyHeight="49.049988dip" android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
     </Row>
 </Keyboard>

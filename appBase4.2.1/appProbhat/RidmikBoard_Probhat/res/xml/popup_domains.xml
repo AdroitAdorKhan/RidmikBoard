@@ -3,7 +3,7 @@
     <Row android:rowEdgeFlags="bottom|top">
         <Key android:keyEdgeFlags="left" android:keyOutputText="@string/popular_domain_0" android:keyLabel="@string/popular_domain_0" />
         <Key android:keyOutputText="@string/popular_domain_1" android:keyLabel="@string/popular_domain_1" />
-		<Key android:keyOutputText="@string/popular_domain_2" android:keyLabel="@string/popular_domain_2" />
+        <Key android:keyOutputText="@string/popular_domain_2" android:keyLabel="@string/popular_domain_2" />
         <Key android:keyOutputText="@string/popular_domain_3" android:keyLabel="@string/popular_domain_3" />
         <Key android:keyEdgeFlags="right" android:keyOutputText="@string/popular_domain_4" android:keyLabel="@string/popular_domain_4" />
     </Row>

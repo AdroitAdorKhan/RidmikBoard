@@ -38,20 +38,16 @@
     <string-array name="keyboard_layout_modes">
         <item>@string/layout_lolipop</item>
         <item>@string/layout_lolipop_light</item>
-		<item>@string/layout_ics</item>
+        <item>@string/layout_ics</item>
         <item>@string/layout_ridmik_blue</item>
-		<item>@string/layout_iphone</item>
-        
-        
+        <item>@string/layout_iphone</item>
     </string-array>
     <string-array name="keyboard_layout_modes_values">
-		<item>3</item>
+        <item>3</item>
         <item>4</item>
-		<item>0</item>
+        <item>0</item>
         <item>2</item>
-		<item>1</item>
-        
- 
+        <item>1</item>
     </string-array>
     <string-array name="font_settings">
         <item>@string/use_system_font</item>

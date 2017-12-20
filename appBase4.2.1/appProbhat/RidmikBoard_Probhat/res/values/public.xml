@@ -66,6 +66,7 @@
     <public type="drawable" name="keyboard_background_lxx_dark" id="0x7f02005a" />
     <public type="drawable" name="keyboard_background_lxx_light" id="0x7f02005b" />
     <public type="drawable" name="keyboard_key_feedback" id="0x7f020067" />
+    <public type="drawable" name="keyboard_background_ios" id="0x7f0200e0" />
     <public type="drawable" name="btn_keyboard_key" id="0x7f020000" />
     <public type="drawable" name="btn_keyboard_key_dark_active_holo" id="0x7f020005" />
     <public type="drawable" name="btn_keyboard_key_dark_normal" id="0x7f020006" />
@@ -189,6 +190,7 @@
     <public type="drawable" name="glow_iphone_green" id="0x7f020045" />
     <public type="drawable" name="glow_iphone_orange" id="0x7f020046" />
     <public type="drawable" name="glow_iphone_white" id="0x7f020047" />
+    <public type="drawable" name="ic_launcher" id="0x7f02004f" />
     <public type="drawable" name="key_feedback_popup_iphone_background" id="0x7f020057" />
     <public type="drawable" name="keyboard_hint_0" id="0x7f02005d" />
     <public type="drawable" name="keyboard_hint_1" id="0x7f02005e" />
@@ -232,10 +234,14 @@
     <public type="drawable" name="sym_keyboard_num8" id="0x7f0200c4" />
     <public type="drawable" name="sym_keyboard_num9" id="0x7f0200c5" />
     <public type="drawable" name="sym_keyboard_shift_iphone" id="0x7f0200ce" />
+    <public type="drawable" name="btn_keyboard_key_light_presses_ios" id="0x7f0200dd" />
+    <public type="drawable" name="btn_keyboard_key_pressed_ios" id="0x7f0200de" />
+    <public type="drawable" name="keyboard_blue_bg" id="0x7f0200e1" />
     <public type="drawable" name="happy1" id="0x7f020048" />
     <public type="drawable" name="happy2" id="0x7f020049" />
     <public type="drawable" name="happy3" id="0x7f02004a" />
     <public type="drawable" name="ridmikand" id="0x7f020080" />
+    <public type="drawable" name="domains" id="0x7f0200df" />
     <public type="drawable" name="btn_keyboard_key_active_lxx_dark" id="0x7f020001" />
     <public type="drawable" name="btn_keyboard_key_active_lxx_light" id="0x7f020002" />
     <public type="drawable" name="btn_keyboard_key_active_pressed_lxx_dark" id="0x7f020003" />
@@ -255,7 +261,6 @@
     <public type="drawable" name="btn_keyboard_spacebar_pressed_lxx_dark" id="0x7f02003d" />
     <public type="drawable" name="btn_keyboard_spacebar_pressed_lxx_light" id="0x7f02003e" />
     <public type="drawable" name="enter" id="0x7f020044" />
-    <public type="drawable" name="ic_launcher" id="0x7f02004f" />
     <public type="drawable" name="keyboard_key_feedback_background_lxx_dark" id="0x7f020069" />
     <public type="drawable" name="keyboard_key_feedback_background_lxx_light" id="0x7f02006a" />
     <public type="drawable" name="keyboard_popup_panel_background_lxx_dark" id="0x7f020070" />
@@ -756,6 +761,146 @@
     <public type="color" name="candidate_normal_lolipop" id="0x7f0a0011" />
     <public type="color" name="candidate_recommended_lolipop" id="0x7f0a0012" />
     <public type="color" name="trans" id="0x7f0a0013" />
+    <public type="color" name="white" id="0x7f0a0014" />
+    <public type="color" name="ivory" id="0x7f0a0015" />
+    <public type="color" name="lightyellow" id="0x7f0a0016" />
+    <public type="color" name="yellow" id="0x7f0a0017" />
+    <public type="color" name="snow" id="0x7f0a0018" />
+    <public type="color" name="floralwhite" id="0x7f0a0019" />
+    <public type="color" name="lemonchiffon" id="0x7f0a001a" />
+    <public type="color" name="cornsilk" id="0x7f0a001b" />
+    <public type="color" name="seashell" id="0x7f0a001c" />
+    <public type="color" name="lavenderblush" id="0x7f0a001d" />
+    <public type="color" name="papayawhip" id="0x7f0a001e" />
+    <public type="color" name="blanchedalmond" id="0x7f0a001f" />
+    <public type="color" name="mistyrose" id="0x7f0a0020" />
+    <public type="color" name="bisque" id="0x7f0a0021" />
+    <public type="color" name="moccasin" id="0x7f0a0022" />
+    <public type="color" name="navajowhite" id="0x7f0a0023" />
+    <public type="color" name="peachpuff" id="0x7f0a0024" />
+    <public type="color" name="gold" id="0x7f0a0025" />
+    <public type="color" name="pink" id="0x7f0a0026" />
+    <public type="color" name="lightpink" id="0x7f0a0027" />
+    <public type="color" name="orange" id="0x7f0a0028" />
+    <public type="color" name="lightsalmon" id="0x7f0a0029" />
+    <public type="color" name="darkorange" id="0x7f0a002a" />
+    <public type="color" name="coral" id="0x7f0a002b" />
+    <public type="color" name="hotpink" id="0x7f0a002c" />
+    <public type="color" name="tomato" id="0x7f0a002d" />
+    <public type="color" name="orangered" id="0x7f0a002e" />
+    <public type="color" name="deeppink" id="0x7f0a002f" />
+    <public type="color" name="fuchsia" id="0x7f0a0030" />
+    <public type="color" name="magenta" id="0x7f0a0031" />
+    <public type="color" name="red" id="0x7f0a0032" />
+    <public type="color" name="oldlace" id="0x7f0a0033" />
+    <public type="color" name="lightgoldenrodyellow" id="0x7f0a0034" />
+    <public type="color" name="linen" id="0x7f0a0035" />
+    <public type="color" name="antiquewhite" id="0x7f0a0036" />
+    <public type="color" name="salmon" id="0x7f0a0037" />
+    <public type="color" name="ghostwhite" id="0x7f0a0038" />
+    <public type="color" name="mintcream" id="0x7f0a0039" />
+    <public type="color" name="whitesmoke" id="0x7f0a003a" />
+    <public type="color" name="beige" id="0x7f0a003b" />
+    <public type="color" name="wheat" id="0x7f0a003c" />
+    <public type="color" name="sandybrown" id="0x7f0a003d" />
+    <public type="color" name="azure" id="0x7f0a003e" />
+    <public type="color" name="honeydew" id="0x7f0a003f" />
+    <public type="color" name="aliceblue" id="0x7f0a0040" />
+    <public type="color" name="khaki" id="0x7f0a0041" />
+    <public type="color" name="lightcoral" id="0x7f0a0042" />
+    <public type="color" name="palegoldenrod" id="0x7f0a0043" />
+    <public type="color" name="violet" id="0x7f0a0044" />
+    <public type="color" name="darksalmon" id="0x7f0a0045" />
+    <public type="color" name="lavender" id="0x7f0a0046" />
+    <public type="color" name="lightcyan" id="0x7f0a0047" />
+    <public type="color" name="burlywood" id="0x7f0a0048" />
+    <public type="color" name="plum" id="0x7f0a0049" />
+    <public type="color" name="gainsboro" id="0x7f0a004a" />
+    <public type="color" name="crimson" id="0x7f0a004b" />
+    <public type="color" name="palevioletred" id="0x7f0a004c" />
+    <public type="color" name="goldenrod" id="0x7f0a004d" />
+    <public type="color" name="orchid" id="0x7f0a004e" />
+    <public type="color" name="thistle" id="0x7f0a004f" />
+    <public type="color" name="lightgrey" id="0x7f0a0050" />
+    <public type="color" name="tan" id="0x7f0a0051" />
+    <public type="color" name="chocolate" id="0x7f0a0052" />
+    <public type="color" name="peru" id="0x7f0a0053" />
+    <public type="color" name="indianred" id="0x7f0a0054" />
+    <public type="color" name="mediumvioletred" id="0x7f0a0055" />
+    <public type="color" name="silver" id="0x7f0a0056" />
+    <public type="color" name="darkkhaki" id="0x7f0a0057" />
+    <public type="color" name="rosybrown" id="0x7f0a0058" />
+    <public type="color" name="mediumorchid" id="0x7f0a0059" />
+    <public type="color" name="darkgoldenrod" id="0x7f0a005a" />
+    <public type="color" name="firebrick" id="0x7f0a005b" />
+    <public type="color" name="powderblue" id="0x7f0a005c" />
+    <public type="color" name="lightsteelblue" id="0x7f0a005d" />
+    <public type="color" name="paleturquoise" id="0x7f0a005e" />
+    <public type="color" name="greenyellow" id="0x7f0a005f" />
+    <public type="color" name="lightblue" id="0x7f0a0060" />
+    <public type="color" name="darkgray" id="0x7f0a0061" />
+    <public type="color" name="brown" id="0x7f0a0062" />
+    <public type="color" name="sienna" id="0x7f0a0063" />
+    <public type="color" name="yellowgreen" id="0x7f0a0064" />
+    <public type="color" name="darkorchid" id="0x7f0a0065" />
+    <public type="color" name="palegreen" id="0x7f0a0066" />
+    <public type="color" name="darkviolet" id="0x7f0a0067" />
+    <public type="color" name="mediumpurple" id="0x7f0a0068" />
+    <public type="color" name="lightgreen" id="0x7f0a0069" />
+    <public type="color" name="darkseagreen" id="0x7f0a006a" />
+    <public type="color" name="saddlebrown" id="0x7f0a006b" />
+    <public type="color" name="darkmagenta" id="0x7f0a006c" />
+    <public type="color" name="darkred" id="0x7f0a006d" />
+    <public type="color" name="blueviolet" id="0x7f0a006e" />
+    <public type="color" name="lightskyblue" id="0x7f0a006f" />
+    <public type="color" name="skyblue" id="0x7f0a0070" />
+    <public type="color" name="gray" id="0x7f0a0071" />
+    <public type="color" name="olive" id="0x7f0a0072" />
+    <public type="color" name="purple" id="0x7f0a0073" />
+    <public type="color" name="maroon" id="0x7f0a0074" />
+    <public type="color" name="aquamarine" id="0x7f0a0075" />
+    <public type="color" name="chartreuse" id="0x7f0a0076" />
+    <public type="color" name="lawngreen" id="0x7f0a0077" />
+    <public type="color" name="mediumslateblue" id="0x7f0a0078" />
+    <public type="color" name="lightslategray" id="0x7f0a0079" />
+    <public type="color" name="slategray" id="0x7f0a007a" />
+    <public type="color" name="olivedrab" id="0x7f0a007b" />
+    <public type="color" name="slateblue" id="0x7f0a007c" />
+    <public type="color" name="dimgray" id="0x7f0a007d" />
+    <public type="color" name="mediumaquamarine" id="0x7f0a007e" />
+    <public type="color" name="cornflowerblue" id="0x7f0a007f" />
+    <public type="color" name="cadetblue" id="0x7f0a0080" />
+    <public type="color" name="darkolivegreen" id="0x7f0a0081" />
+    <public type="color" name="indigo" id="0x7f0a0082" />
+    <public type="color" name="mediumturquoise" id="0x7f0a0083" />
+    <public type="color" name="darkslateblue" id="0x7f0a0084" />
+    <public type="color" name="steelblue" id="0x7f0a0085" />
+    <public type="color" name="royalblue" id="0x7f0a0086" />
+    <public type="color" name="turquoise" id="0x7f0a0087" />
+    <public type="color" name="mediumseagreen" id="0x7f0a0088" />
+    <public type="color" name="limegreen" id="0x7f0a0089" />
+    <public type="color" name="darkslategray" id="0x7f0a008a" />
+    <public type="color" name="seagreen" id="0x7f0a008b" />
+    <public type="color" name="forestgreen" id="0x7f0a008c" />
+    <public type="color" name="lightseagreen" id="0x7f0a008d" />
+    <public type="color" name="dodgerblue" id="0x7f0a008e" />
+    <public type="color" name="midnightblue" id="0x7f0a008f" />
+    <public type="color" name="aqua" id="0x7f0a0090" />
+    <public type="color" name="cyan" id="0x7f0a0091" />
+    <public type="color" name="springgreen" id="0x7f0a0092" />
+    <public type="color" name="lime" id="0x7f0a0093" />
+    <public type="color" name="mediumspringgreen" id="0x7f0a0094" />
+    <public type="color" name="darkturquoise" id="0x7f0a0095" />
+    <public type="color" name="deepskyblue" id="0x7f0a0096" />
+    <public type="color" name="darkcyan" id="0x7f0a0097" />
+    <public type="color" name="teal" id="0x7f0a0098" />
+    <public type="color" name="green" id="0x7f0a0099" />
+    <public type="color" name="darkgreen" id="0x7f0a009a" />
+    <public type="color" name="blue" id="0x7f0a009b" />
+    <public type="color" name="mediumblue" id="0x7f0a009c" />
+    <public type="color" name="darkblue" id="0x7f0a009d" />
+    <public type="color" name="navy" id="0x7f0a009e" />
+    <public type="color" name="black" id="0x7f0a009f" />
     <public type="dimen" name="key_height" id="0x7f0b0000" />
     <public type="dimen" name="key_bottom_gap" id="0x7f0b0001" />
     <public type="dimen" name="popup_key_height" id="0x7f0b0002" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard android:keyWidth="8.33%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap" xmlns:android="http://schemas.android.com/apk/res-auto">
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="@integer/unicode_dho" android:keyEdgeFlags="left" android:keyLabel="@string/bangla_ddho" />
+        <Key android:codes="@integer/unicode_ddho" android:keyEdgeFlags="left" android:keyLabel="@string/bangla_ddho" />
         <Key android:codes="@integer/unicode_dirgo_u" android:keyLabel="@string/bangla_dirgo_u" />
         <Key android:codes="@integer/unicode_dirgo_i" android:keyLabel="@string/bangla_dirgo_i" />
         <Key android:codes="@integer/unicode_dashinnoro" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="@string/probhat_popup_rh" android:keyLabel="@string/bangla_dashinnoro" />

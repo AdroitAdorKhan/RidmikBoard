@@ -13,7 +13,7 @@
 
 
 # static fields
-.field private static final BANGLA_STRING_ASCII:Ljava/lang/String; = "\u00b1\u00f4"
+.field private static final BANGLA_STRING_ASCII:Ljava/lang/String; = "\u0985\u09ad\u09cd\u09b0"
 
 .field private static final BANGLA_STRING_UNICODE:Ljava/lang/String; = "\u0985\u09ad\u09cd\u09b0"
 
@@ -21,7 +21,7 @@
 
 .field private static final MINIMUM_SCALE_OF_LANGUAGE_NAME:F = 0.8f
 
-.field private static final NATIONAL_STRING_ASCII:Ljava/lang/String; = "\u00c2\u00e2\u00ca\u00e4\u00dd"
+.field private static final NATIONAL_STRING_ASCII:Ljava/lang/String; = "\u099c\u09be\u09a4\u09c0\u09df"
 
 .field private static final NATIONAL_STRING_UNICODE:Ljava/lang/String; = "\u099c\u09be\u09a4\u09c0\u09df"
 
@@ -1374,7 +1374,7 @@
     if-ne v13, v14, :cond_4
 
     .line 579
-    const-string v13, "\u00b1\u00f4"
+    const-string v13, "\u0985\u09ad\u09cd\u09b0"
 
     .line 597
     :goto_1
@@ -1440,13 +1440,13 @@
     if-ne v13, v14, :cond_6
 
     .line 584
-    const-string v13, "প্রভাত"
+    const-string v13, "\u09aa\u09cd\u09b0\u09ad\u09be\u09a4"
 
     goto :goto_1
 
     .line 585
     :cond_6
-    const-string v13, "\u00c2\u00e2\u00ca\u00e4\u00dd"
+    const-string v13, "\u099c\u09be\u09a4\u09c0\u09df"
 
     goto :goto_1
 

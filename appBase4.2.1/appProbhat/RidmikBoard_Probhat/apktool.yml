@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: RidmikBoard.apk
+apkFileName: Probhat.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -18,5 +18,5 @@ usesFramework:
   tag: null
 version: 2.3.0
 versionInfo:
-  versionCode: '22'
-  versionName: 1.9.0
+  versionCode: '23'
+  versionName: 1.9.1

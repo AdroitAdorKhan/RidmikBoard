@@ -355,7 +355,7 @@
     if-eqz v9, :cond_7
 
     .line 1064
-    const-string v2, "প্রভাত"
+    const-string v2, "\u09aa\u09cd\u09b0\u09ad\u09be\u09a4"
 
     .line 1073
     :goto_0
@@ -370,7 +370,7 @@
     if-eqz v9, :cond_0
 
     .line 1075
-    const-string v0, "\u00b1\u00f4"
+    const-string v0, "\u0985\u09ad\u09cd\u09b0"
 
     .line 1077
     :cond_0
@@ -633,7 +633,7 @@
     if-eqz v9, :cond_9
 
     .line 1068
-    const-string v2, "\u00c2\u00e2\u00ca\u00e4\u00dd"
+    const-string v2, "\u099c\u09be\u09a4\u09c0\u09df"
 
     goto/16 :goto_0
 
