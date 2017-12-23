@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<net.hasnath.android.keyboard.LatinKeyboardView android:id="@id/LatinkeyboardBaseView" android:background="@drawable/keyboard_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" latin:keyBackground="@drawable/btn_keyboard_key"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:latin="http://schemas.android.com/apk/res/net.hasnath.android.keyboard" />
