@@ -1,0 +1,4 @@
+version: 2.0.3
+apkFileName: ridmik_board_1.7.0_Stable.apk
+doNotCompress:
+- arsc

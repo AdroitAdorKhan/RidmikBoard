@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.000000%p" android:keyHeight="36.6599dip" android:horizontalGap="0.0px" android:verticalGap="@dimen/key_bottom_gap" xmlns:android="http://schemas.android.com/apk/res/net.hasnath.android.keyboard">
+    <Row android:rowEdgeFlags="top">
+        <Key android:keyOutputText="😬" android:keyLabel="😬" />
+        <Key android:keyOutputText="😴" android:keyLabel="😴" />
+        <Key android:keyOutputText="😷" android:keyLabel="😷" />
+        <Key android:keyOutputText="🤕" android:keyLabel="🤕" />
+        <Key android:keyOutputText="😈" android:keyLabel="😈" />
+        <Key android:keyOutputText="👿" android:keyLabel="👿" />
+        <Key android:keyOutputText="💩" android:keyLabel="💩" />
+        <Key android:keyOutputText="👻" android:keyLabel="👻" />
+        <Key android:keyOutputText="💀" android:keyLabel="💀" />
+        <Key android:keyOutputText="👽" android:keyLabel="👽" />
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText="😺" android:keyLabel="😺" />
+        <Key android:keyOutputText="😻" android:keyLabel="😻" />
+        <Key android:keyOutputText="😿" android:keyLabel="😿" />
+        <Key android:keyOutputText="🙀" android:keyLabel="🙀" />
+        <Key android:keyOutputText="👍" android:keyLabel="👍" />
+        <Key android:keyOutputText="👎" android:keyLabel="👎" />
+        <Key android:keyOutputText="✌" android:keyLabel="✌" />
+        <Key android:keyOutputText="🖐" android:keyLabel="🖐" />
+        <Key android:keyOutputText="🖕" android:keyLabel="🖕" />
+		<Key android:keyOutputText="🐸" android:keyLabel="🐸" />
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText="🐵" android:keyLabel="🐵" />
+        <Key android:keyOutputText="🙈" android:keyLabel="🙈" />
+        <Key android:keyOutputText="🙉" android:keyLabel="🙉" />
+        <Key android:keyOutputText="🙊" android:keyLabel="🙊" />
+        <Key android:keyOutputText="🐝" android:keyLabel="🐝" />
+        <Key android:keyOutputText="🐢" android:keyLabel="🐢" />
+        <Key android:keyOutputText="🐍" android:keyLabel="🐍" />
+        <Key android:keyOutputText="🐯" android:keyLabel="🐯" />
+        <Key android:keyOutputText="🐳" android:keyLabel="🐳" />
+		<Key android:keyOutputText="🐄" android:keyLabel="🐄" />
+    </Row>
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyOutputText="🐈" android:keyLabel="🐈" />
+        <Key android:keyOutputText="🐇" android:keyLabel="🐇" />
+        <Key android:keyOutputText="🌳" android:keyLabel="🌳" />
+        <Key android:keyOutputText="🍀" android:keyLabel="🍀" />
+        <Key android:keyOutputText="💐" android:keyLabel="💐" />
+        <Key android:keyOutputText="🌹" android:keyLabel="🌹" />
+        <Key android:keyOutputText="🌸" android:keyLabel="🌸" />
+        <Key android:keyOutputText="🌺" android:keyLabel="🌺" />
+        <Key android:keyOutputText="🐥" android:keyLabel="🐥" />
+        <Key android:keyEdgeFlags="right" android:keyOutputText="🐁" android:keyLabel="🐁" />
+    </Row>
+    <Row android:keyHeight="49.05dip" android:rowEdgeFlags="bottom" android:keyboardMode="@id/mode_normal">
+        <Key android:keyWidth="18.000000%p" android:keyHeight="49.05dip"  android:codes="@integer/main_keyboard" android:keyEdgeFlags="left" android:isModifier="true" android:keyLabel="@string/label_alpha_key" />
+        <Key android:keyWidth="15.0%p" android:keyHeight="49.05dip"  android:codes="@integer/smiley_keyboard3" android:isModifier="true" android:keyIcon="@drawable/happy1" />
+        <Key android:keyWidth="34.0%p" android:keyHeight="49.05dip"  android:codes="@integer/key_space" android:isModifier="true" android:iconPreview="@drawable/sym_keyboard_feedback_space" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:keyWidth="15.0%p" android:keyHeight="49.05dip"  android:codes="@integer/smiley_keyboard1" android:isModifier="true" android:keyIcon="@drawable/happy2" />
+		<Key android:keyWidth="18.000000%p" android:keyHeight="49.05dip"  android:codes="@integer/key_delete" android:keyEdgeFlags="right" android:isModifier="true" android:isRepeatable="true" android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+</Keyboard>

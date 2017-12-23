@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hint_to_left">-1</integer>
+    <integer name="hint_to_up">-2</integer>
+    <integer name="hint_text_size">18</integer>
+</resources>

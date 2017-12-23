@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="অভিনন্দন! আপনার এন্ড্রয়েড বাংলা সাপোর্ট             করে। আপনি যদি সরাসরি এখান থেকে facebook এ status update করতে চান              তাহলে TypeBangla Add-on টি ডাউনলোড করতে পারেন।\n\n              If you can't read the Bangla text above, please download TypeBangla Add-on(You need to have Adobe Air installed to run it)" />
+        <Button android:layout_gravity="center" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Install TypeBangla Addon" android:onClick="addonDownloadClick" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <WebView android:id="@id/mainpagewebview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

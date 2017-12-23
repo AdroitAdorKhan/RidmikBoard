@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_keyboard_key_dark_normal_iphone" />
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/glow_iphone_white" />
+    </item>
+</layer-list>

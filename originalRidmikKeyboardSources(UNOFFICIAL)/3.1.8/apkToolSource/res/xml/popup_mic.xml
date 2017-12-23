@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/net.hasnath.android.keyboard">
+    <Row android:rowEdgeFlags="top|bottom">
+        <Key android:codes="@integer/key_settings" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_keyboard_settings" />
+        <Key android:codes="@integer/key_voice" android:keyEdgeFlags="right" android:keyIcon="@drawable/sym_keyboard_mic" />
+    </Row>
+</Keyboard>

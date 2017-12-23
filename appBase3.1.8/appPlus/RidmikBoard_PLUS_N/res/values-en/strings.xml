@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alternates_for_a">\@</string>
+    <string name="alternates_for_e">3</string>
+    <string name="alternates_for_i">8</string>
+    <string name="alternates_for_o">9</string>
+    <string name="alternates_for_u">7</string>
+    <string name="alternates_for_y">6</string>
+</resources>
