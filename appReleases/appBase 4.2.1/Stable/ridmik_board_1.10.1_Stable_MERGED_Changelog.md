@@ -2,13 +2,15 @@
 
 **UNIFIED CHANGES -**
 
+-**[NEW]** Happy New Year! <3
+
 -**[NEW]** Introducing all new 'Ridmik Board Sans' Font. 
 
 -**[NEW]** New Font, New Symbols and no more blank Pop-Ups or missing Symbols. 
 
 -**[NEW]** 50+ New Symbols, which will help a lot both Students and Others.
 
--**[UPDATED]** Themes, and Theme Related many small bugs. (Ex. Black and Light Shift Key, HQ Backspace Key)
+-**[UPDATED]** Themes, and Theme Related many small things. (Ex. Black and Light Shift Key, HQ Backspace Key)
 
 -**[UPDATED]** In-app update notify bar.
 
@@ -27,7 +29,12 @@
 
 -**[FIX]** Fixed Shift Probhat Layout.
 
+
 **ARABIC BUILD CHANGES -**
 
 -**[UPDATED]** Full Stop Pop-Up Symbols re-arranged.
+
+-**[UPDATED]** Few Key Pop-Ups.
+
+
 
