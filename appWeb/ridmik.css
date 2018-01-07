@@ -1,0 +1,44 @@
+.menubg {
+  background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('https://2.bp.blogspot.com/-0knJgN-w5PE/Whpdw6j-3GI/AAAAAAAATTI/NkqYOUBVQIAM9LF4TaCKsYc5FTPceOYQACLcBGAs/s1600/onepage_git.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+td.casesen {
+	color: #32CD32;
+}
+
+td.caseinsen {
+	color: #FF0000;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: transparent;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: transparent;
+}
+table#t01 th {
+    background-color: indigo;
+    color: white;
+}
