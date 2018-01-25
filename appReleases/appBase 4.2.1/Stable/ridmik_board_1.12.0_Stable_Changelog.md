@@ -4,7 +4,7 @@
 
 -**[UPDATED]** Ridmik Board Sans 3.1 Font.
 
--**[UPDATED]** Key Preview Height-Width.
+-**[UPDATED]** Key Preview Height-Width. 
 
 -**[UPDATED]** Emoji layout, as users were asking for enter key!
 
