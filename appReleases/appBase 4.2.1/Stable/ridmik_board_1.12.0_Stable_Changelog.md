@@ -1,5 +1,7 @@
 **v1.12.0 - Stable (MERGED_CHANGELOG)**
 
+|| **UNIFIED CHANGES**
+
 -**[UPDATED]** Ridmik Base. (Many codes were added, and many many more codes were shredded!)
 
 -**[UPDATED]** Ridmik Board Sans 3.1 Font.
