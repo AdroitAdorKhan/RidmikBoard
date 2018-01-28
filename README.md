@@ -1,15 +1,6 @@
-![](https://raw.githubusercontent.com/AdroitAdorKhan/RidmikBoard/master/appGraphics/PROMO/Untitled-git.png)
+![](https://1.bp.blogspot.com/-Mn13OCcTEao/Wm1YgeDLeDI/AAAAAAAATb0/Iuk4xbEZLhQ-NHUePuDosl6HsTJN-HKQACLcBGAs/s1600/THANK_YOU.png)
 
-# **Ridmik Board - Welcome to Git Repo!**
+# **THANK YOU**
 
-Ridmik Board is basically a mod of Ridmik Bangla Keyboard. Original app wasn't being updated for long time. So I thought about bringing few changes, and make if more user friendly. That's all! Enjoy!
-
-* Download - https://github.com/AdroitAdorKhan/RidmikBoard/releases
-* Changelog - https://github.com/AdroitAdorKhan/RidmikBoard/blob/master/Changes.md
-* XDA Project - https://forum.xda-developers.com/android/apps-games/app-ridmik-board-bangla-keyboard-t3709956
-* XDA Labs - https://labs.xda-developers.com/store/app/ridmik.board.ador
-* WEB - https://adroitadorkhan.github.io/RidmikBoard/
-
-### Maintainer
-## Nayem Ador
-[XDA](https://forum.xda-developers.com/member.php?u=6150654) | [Facebook](fb.com/adroitadorkhan) | [Twitter](twitter.com/adroitadorkhan) | [G+](plus.google.com/+AdroitAdor) | [Telegram](t.me/AdroitAdorKhan)
+WE HAVE HEARD FROM HASNATH BHAI, AND THERE WILL BE A NEW OFFICIAL UPDATE, HITTING THE STORE SOON! SO WE WILL BE CLOSING THIS PROJECT FOR GOOD! :) 
+IT'S BEEN A GREAT PLEASURE WORKING WITH YOU AND FOR YOU GUYS! :) I REALLY LOVED DOING THIS FOR YOU. AND, I WOULD LIKE TO THANK YOU ALL FOR YOUR HUGE SUPPORT THROUGHOUT THIS PROJECT! THANKS ALL AGAIN! ❤ 
