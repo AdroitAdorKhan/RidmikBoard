@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/popup_key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px" xmlns:android="http://schemas.android.com/apk/res-auto">
-    <Row android:rowEdgeFlags="bottom|top">
-        <Key android:codes="@integer/key_settings" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_keyboard_settings" />
-        <Key android:keyEdgeFlags="right" android:keyLabel="/" />
-    </Row>
-</Keyboard>

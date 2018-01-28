@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
-        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/dialogMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
-        <SeekBar android:id="@id/myBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dialogMessage" android:layout_alignLeft="@id/dialogMessage" />
-        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/actualValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/myBar" android:layout_alignLeft="@id/myBar" />
-    </RelativeLayout>
-</LinearLayout>

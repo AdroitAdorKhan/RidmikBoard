@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/english_ime_settings" android:key="english_ime_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:rd="http://schemas.android.com/apk/res/net.hasnath.android.keyboard">
-    <net.hasnath.android.habijabi.SeekBarPreferenceString android:persistent="true" android:title="Keyboard Height(Portrait)" android:key="settings_height_portrait" android:defaultValue="100" rd:minValue="60.0" rd:maxValue="180.0" rd:step="1.0" rd:displayFormat="%.0f%%" rd:defaultVal="100.0" />
-    <net.hasnath.android.habijabi.SeekBarPreferenceString android:persistent="true" android:title="Keyboard Height(Landscape)" android:key="settings_height_landscape" android:defaultValue="100" rd:minValue="60.0" rd:maxValue="180.0" rd:step="1.0" rd:displayFormat="%.0f%%" rd:defaultVal="100.0" />
-</PreferenceScreen>
